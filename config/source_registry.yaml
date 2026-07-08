@@ -1,0 +1,135 @@
+sources:
+  - id: fda_clinical_trials_guidance
+    family: FDA
+    label: Clinical Trials Guidance Documents
+    kind: web_index
+    seed_url: https://www.fda.gov/science-research/clinical-trials-and-human-subject-protection/clinical-trials-guidance-documents
+    authority: official
+    scrape: true
+    priority: high
+    tags: [clinical-trials, guidance, protocol-authoring]
+
+  - id: fda_ind_protocol_amendments
+    family: FDA
+    label: IND Application Reporting - Protocol Amendments
+    kind: web_page
+    seed_url: https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-application-reporting-protocol-amendments
+    authority: official
+    scrape: true
+    priority: high
+    tags: [ind, protocol-amendments, change-control]
+
+  - id: fda_clinical_protocols
+    family: FDA
+    label: IND Applications for Clinical Investigations - Clinical Protocols
+    kind: web_page
+    seed_url: https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-applications-clinical-investigations-clinical-protocols
+    authority: official
+    scrape: true
+    priority: high
+    tags: [protocols, ind, authoring]
+
+  - id: ich_guidelines
+    family: ICH
+    label: ICH Guidelines Index
+    kind: web_index
+    seed_url: https://www.ich.org/resources/guidelines
+    authority: official
+    scrape: true
+    priority: high
+    tags: [guidelines, index]
+
+  - id: ich_efficacy_guidelines
+    family: ICH
+    label: ICH Efficacy Guidelines
+    kind: web_index
+    seed_url: https://admin.ich.org/page/efficacy-guidelines
+    authority: official
+    scrape: true
+    priority: high
+    tags: [efficacy, e6, e8, e9]
+
+  - id: ich_e6_r3_draft
+    family: GCP
+    label: ICH E6(R3) Draft Guideline
+    kind: pdf
+    seed_url: https://database.ich.org/sites/default/files/ICH_E6%28R3%29_DraftGuideline_2023_0519.pdf
+    authority: official
+    scrape: true
+    priority: high
+    tags: [gcp, e6, protocol, quality]
+
+  - id: ema_clinical_trials
+    family: EMA
+    label: Clinical Trials in Human Medicines
+    kind: web_page
+    seed_url: https://www.ema.europa.eu/en/human-regulatory-overview/research-development/clinical-trials-human-medicines
+    authority: official
+    scrape: true
+    priority: high
+    tags: [clinical-trials, regulation]
+
+  - id: ema_gcp_qa
+    family: EMA
+    label: Q and A Good Clinical Practice
+    kind: web_page
+    seed_url: https://www.ema.europa.eu/en/human-regulatory-overview/research-development/compliance-research-development/good-clinical-practice/qa-good-clinical-practice-gcp
+    authority: official
+    scrape: true
+    priority: high
+    tags: [gcp, qa, protocol-amendments]
+
+  - id: ema_ich_e6
+    family: EMA
+    label: ICH E6 Good Clinical Practice Scientific Guideline
+    kind: web_page
+    seed_url: https://www.ema.europa.eu/en/ich-e6-good-clinical-practice-scientific-guideline
+    authority: official
+    scrape: true
+    priority: medium
+    tags: [gcp, e6]
+
+  - id: ecfr_part_312
+    family: CFR
+    label: 21 CFR Part 312
+    kind: web_page
+    seed_url: https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312
+    authority: official_unofficial
+    scrape: true
+    priority: high
+    tags: [cfr, ind, clinical-trials]
+
+  - id: fda_cfr_312_reference
+    family: CFR
+    label: FDA CFR Title 21 Part 312 Reference
+    kind: web_page
+    seed_url: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfCFR/CFRSearch.cfm?CFRPart=312
+    authority: official_reference
+    scrape: true
+    priority: medium
+    tags: [cfr, reference]
+
+  - id: cdisc_home
+    family: CDISC
+    label: CDISC Protocol Representation Model
+    kind: web_page
+    seed_url: https://www.cdisc.org/standards/foundational/protocol
+    authority: official
+    scrape: true
+    priority: medium
+    tags: [standards, metadata, interoperability]
+
+scrape_policy:
+  allow_domains:
+    - fda.gov
+    - ich.org
+    - admin.ich.org
+    - database.ich.org
+    - ema.europa.eu
+    - ecfr.gov
+    - accessdata.fda.gov
+    - cdisc.org
+  prefer_pdf_text_extraction: true
+  respect_robots_txt: true
+  store_html_snapshot: true
+  store_text_snapshot: true

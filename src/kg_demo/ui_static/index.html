@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Temporal Claim-Centered GraphRAG Demo</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cline x1='10' y1='12' x2='27' y2='20' stroke='%23101828' stroke-width='2'/%3E%3Cline x1='27' y1='20' x2='13' y2='30' stroke='%23101828' stroke-width='2'/%3E%3Ccircle cx='10' cy='12' r='5' fill='%233556e0'/%3E%3Ccircle cx='27' cy='20' r='6' fill='%23101828'/%3E%3Ccircle cx='13' cy='30' r='4' fill='%230e9f6e'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="/static/styles.css?v=4">
+  </head>
+  <body>
+    <div class="app">
+      <header class="topbar">
+        <div class="brand">
+          <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+            <line x1="10" y1="12" x2="27" y2="20" />
+            <line x1="27" y1="20" x2="13" y2="30" />
+            <circle cx="10" cy="12" r="5" class="mark-a" />
+            <circle cx="27" cy="20" r="6" class="mark-b" />
+            <circle cx="13" cy="30" r="4" class="mark-c" />
+          </svg>
+          <div>
+            <div class="kicker">Protocol Knowledge Hub</div>
+            <h1>Temporal Claim-Centered GraphRAG</h1>
+            <p class="tagline">Version-aware protocol drafting with explicit claim state, amendment impact, and source governance.</p>
+          </div>
+        </div>
+        <div class="badges">
+          <div class="mode-badge">Local Demo Mode</div>
+          <span id="statusChip" class="chip tone-ready">Ready</span>
+        </div>
+      </header>
+
+      <section class="action-shell">
+        <div class="action-group">
+          <div class="group-label">Demo walkthrough</div>
+          <div class="action-row">
+            <button data-action="current-dose"><span class="step">D1</span>Current Fact</button>
+            <button data-action="what-changed"><span class="step">D2</span>What Changed</button>
+            <button data-action="draft"><span class="step">D3</span>Draft Protocol</button>
+            <button data-action="validate"><span class="step">D4</span>Validate Draft</button>
+            <button data-action="impact-map"><span class="step">D5</span>Impact Map</button>
+            <button data-action="current-dose-now"><span class="step">D6</span>Ask Again</button>
+          </div>
+        </div>
+
+        <div class="action-group sim-group">
+          <div class="group-label">Simulate amendment</div>
+          <div class="sim-row">
+            <div class="dose-field">
+              <input id="newDoseInput" type="number" value="100" min="1" step="1" aria-label="New dose in milligrams">
+              <span class="unit">mg</span>
+            </div>
+            <button class="secondary" data-action="simulate-amendment">Create Amendment</button>
+            <button class="ghost" data-action="reset-demo">Reset</button>
+          </div>
+        </div>
+      </section>
+
+      <main class="layout">
+        <section class="card answer-card">
+          <div class="card-head">
+            <h2>AI Workspace</h2>
+          </div>
+          <div id="answerSummary" class="answer-summary placeholder">Run an action to inspect the active claim state.</div>
+          <textarea id="draftInput" class="draft-box" spellcheck="false" aria-label="Draft text"></textarea>
+          <div id="validationBanner" class="validation-banner hidden"></div>
+          <div id="citationTray" class="citation-tray empty">Citations will appear here.</div>
+        </section>
+
+        <section class="card protocol-card">
+          <div class="card-head">
+            <h2>Generated Protocol</h2>
+            <span class="chip subtle">live preview</span>
+          </div>
+          <div id="protocolPreview" class="protocol-preview placeholder">No generated protocol text yet.</div>
+          <div id="changeSummary" class="change-summary placeholder">Graph and protocol changes will appear here after a simulated amendment.</div>
+          <div id="impactPanel" class="impact-panel placeholder">Impact analysis will appear here.</div>
+          <div id="governancePanel" class="governance-panel placeholder">Governing and changed sources will appear here.</div>
+        </section>
+
+        <section class="card graph-card">
+          <div class="card-head">
+            <h2>Temporal Graph</h2>
+            <span id="graphStats" class="chip subtle">0 nodes</span>
+          </div>
+          <svg id="graphCanvas" viewBox="0 0 980 380" class="graph-canvas" role="img" aria-label="Temporal graph"></svg>
+          <div id="graphLegend" class="graph-legend"></div>
+          <div id="graphDelta" class="graph-delta placeholder">New graph changes will be shown after each amendment.</div>
+        </section>
+
+        <section class="card ledger-card">
+          <div class="card-head">
+            <h2>Ledger + Sources</h2>
+            <span id="ledgerStats" class="chip subtle">0 claims</span>
+          </div>
+          <div class="ledger-columns">
+            <div>
+              <h3>Claims</h3>
+              <div id="ledgerList" class="ledger-list"></div>
+            </div>
+            <div>
+              <h3>Sources</h3>
+              <div id="documentList" class="document-list"></div>
+            </div>
+          </div>
+          <div class="events-head">System Events</div>
+          <div id="systemEvents" class="system-events placeholder">System events will appear here.</div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/static/app.js?v=4" defer></script>
+  </body>
+</html>

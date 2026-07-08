@@ -1,0 +1,28 @@
+{
+  "source_id": "cdisc_home",
+  "family": "CDISC",
+  "label": "CDISC Protocol Representation Model",
+  "kind": "web_page",
+  "seed_url": "https://www.cdisc.org/standards/foundational/protocol",
+  "resolved_url": "https://www.cdisc.org/standards/foundational/protocol",
+  "retrieved_at": "2026-05-21T22:30:00-04:00",
+  "retrieved_via": "web_tool",
+  "title": "PRM | CDISC",
+  "text": "The CDISC Protocol Representation Model provides a standard for planning and designing a research protocol. It focuses on study characteristics including study design, eligibility criteria, and requirements from ClinicalTrials.gov, WHO, and EudraCT registries. PRM also supports automation of CRF creation and EHR configuration.",
+  "sections": [
+    {
+      "heading": "Protocol Representation Model",
+      "text": "PRM focuses on study design, eligibility criteria, and clinical-trial registry requirements."
+    },
+    {
+      "heading": "Automation",
+      "text": "PRM assists in automating CRF creation and EHR configuration for clinical research and data sharing."
+    }
+  ],
+  "citation_spans": [
+    {
+      "locator": "line 140",
+      "quoted_text": "PRM focuses on study design, eligibility criteria, and requirements from clinical-trial registries."
+    }
+  ]
+}

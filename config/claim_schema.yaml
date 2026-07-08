@@ -1,0 +1,102 @@
+claim_schema:
+  required_fields:
+    - claim_id
+    - claim_text
+    - normalized_subject
+    - predicate
+    - normalized_object
+    - claim_status
+    - effective_start
+    - evidence_ids
+    - source_ids
+    - created_at
+
+  enums:
+    claim_status:
+      - draft
+      - active
+      - superseded
+      - disputed
+      - rejected
+    claim_type:
+      - factual
+      - requirement
+      - prohibition
+      - recommendation
+      - definition
+      - change_event
+    source_type:
+      - regulation
+      - guidance
+      - protocol
+      - amendment
+      - sop
+      - table
+      - user_feedback
+    validation_severity:
+      - info
+      - warning
+      - critical
+
+  temporal_fields:
+    effective_start: iso-date-or-datetime
+    effective_end: iso-date-or-datetime-or-null
+    supersedes_claim_ids: list[string]
+    superseded_by_claim_id: string-or-null
+
+  provenance_fields:
+    evidence_ids: list[string]
+    source_ids: list[string]
+    citation_spans: list[object]
+    extraction_method: string
+    extraction_confidence: float
+    reviewer_decision: string-or-null
+    reviewer_notes: string-or-null
+
+  kg_fields:
+    entity_ids: list[string]
+    relation_ids: list[string]
+    topic_labels: list[string]
+
+  retrieval_fields:
+    retrieval_keywords: list[string]
+    retrieval_summary: string
+
+example_claim:
+  claim_id: claim_protocol_dose_v2
+  claim_text: The current protocol dose is 75 mg.
+  normalized_subject: protocol.current_dose
+  predicate: equals
+  normalized_object: 75 mg
+  claim_type: factual
+  claim_status: active
+  effective_start: 2026-01-15
+  effective_end: null
+  supersedes_claim_ids:
+    - claim_protocol_dose_v1
+  superseded_by_claim_id: null
+  evidence_ids:
+    - ev_protocol_amendment_v2_chunk_003
+  source_ids:
+    - protocol_amendment_v2
+  citation_spans:
+    - source_id: protocol_amendment_v2
+      locator: section 6.2
+      quoted_text: Dose will be increased from 50 mg to 75 mg.
+  extraction_method: llm_plus_rule_review
+  extraction_confidence: 0.92
+  reviewer_decision: approved
+  reviewer_notes: Dose confirmed against amendment text.
+  entity_ids:
+    - protocol_main
+    - dose_75mg
+  relation_ids:
+    - protocol_main_has_dose_dose_75mg
+  topic_labels:
+    - dosing
+    - amendment
+  retrieval_keywords:
+    - current dose
+    - dosing
+    - amendment
+  retrieval_summary: Active dose claim for updated protocol drafting.

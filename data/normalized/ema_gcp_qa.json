@@ -1,0 +1,40 @@
+{
+  "source_id": "ema_gcp_qa",
+  "family": "EMA",
+  "label": "Q and A Good Clinical Practice",
+  "kind": "web_page",
+  "seed_url": "https://www.ema.europa.eu/en/human-regulatory-overview/research-development/compliance-research-development/good-clinical-practice/qa-good-clinical-practice-gcp",
+  "resolved_url": "https://www.ema.europa.eu/en/human-regulatory-overview/research-development/compliance-research-development/good-clinical-practice/qa-good-clinical-practice-gcp",
+  "retrieved_at": "2026-05-21T22:30:00-04:00",
+  "retrieved_via": "web_tool",
+  "title": "Q&A: Good clinical practice (GCP) | European Medicines Agency (EMA)",
+  "text": "Adherence to the protocol is a fundamental part of clinical study conduct. Significant changes, including eligibility, tests, dosing, or treatment duration, should be submitted as an amendment or modification. The protocol should identify data recorded directly into CRFs that are considered source data. EMA GCP inspectors also expect adherence to every individual inclusion and exclusion criterion to be documented in source data.",
+  "sections": [
+    {
+      "heading": "Protocol adherence",
+      "text": "Adherence to the protocol is a fundamental part of the conduct of a clinical study."
+    },
+    {
+      "heading": "Significant changes",
+      "text": "Significant changes to the protocol include changes to inclusion or exclusion criteria, tests, dosing, and duration of treatment."
+    },
+    {
+      "heading": "Control risk",
+      "text": "The page warns about operational risk if vendors implement changes from amendments before approval by the competent authority and ethics committee."
+    },
+    {
+      "heading": "Source data requirements",
+      "text": "The protocol should identify data recorded directly into CRFs that are considered source data. Adherence to individual inclusion and exclusion criteria should be documented in source data."
+    }
+  ],
+  "citation_spans": [
+    {
+      "locator": "line 169",
+      "quoted_text": "Any significant change to the protocol should be submitted as an amendment or modification to the competent regulatory authority and ethics committee."
+    },
+    {
+      "locator": "lines 233-243",
+      "quoted_text": "The protocol should identify CRF-recorded source data, and adherence to individual inclusion and exclusion criteria should be documented in source data."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "source_id": "fda_ind_protocol_amendments",
+  "family": "FDA",
+  "label": "IND Application Reporting - Protocol Amendments",
+  "kind": "web_page",
+  "seed_url": "https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-application-reporting-protocol-amendments",
+  "resolved_url": "https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-application-reporting-protocol-amendments",
+  "retrieved_at": "2026-05-21T22:30:00-04:00",
+  "retrieved_via": "web_tool",
+  "title": "IND Application Reporting: Protocol Amendments | FDA",
+  "text": "Sponsors are expected to submit protocol amendments for new protocols or changes to existing protocols before implementation. Changes that significantly affect subject safety, scope, or scientific quality require an amendment. FDA examples include increasing dosage or exposure beyond the current protocol, significant design changes such as adding or removing a control group, and adding or removing safety-monitoring tests. A change intended to eliminate an apparent immediate hazard may be implemented immediately, provided FDA is subsequently notified by protocol amendment and the reviewing IRB is also notified.",
+  "sections": [
+    {
+      "heading": "Overview",
+      "text": "Once an IND application is in effect, the sponsor may amend the application as needed to ensure that clinical investigations are conducted according to protocols included in the IND application."
+    },
+    {
+      "heading": "Timing",
+      "text": "Sponsors are expected to submit protocol amendments for new protocols or changes to existing protocols before implementation of the respective changes."
+    },
+    {
+      "heading": "Types",
+      "text": "Examples include dose or exposure increases, significant protocol design changes, and changes to safety-monitoring tests. Immediate-hazard changes may be implemented immediately with subsequent FDA and IRB notification."
+    }
+  ],
+  "citation_spans": [
+    {
+      "locator": "lines 85-98",
+      "quoted_text": "Sponsors are expected to submit protocol amendments for new protocols or changes to existing protocols before implementation of the respective changes."
+    },
+    {
+      "locator": "lines 101-105",
+      "quoted_text": "Dose increases, significant design changes, and safety-monitoring changes may require amendment; immediate-hazard changes may be implemented with subsequent FDA and IRB notification."
+    }
+  ]
+}

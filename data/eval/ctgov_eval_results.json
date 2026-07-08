@@ -1,0 +1,18 @@
+{
+  "task": "ctgov_changed_modules",
+  "task_count": 1902,
+  "summary": {
+    "structured_diff": {
+      "f1": 0.7798,
+      "precision": 1.0,
+      "recall": 0.7693,
+      "n": 1902
+    },
+    "predict_all": {
+      "f1": 0.4345,
+      "precision": 0.2989,
+      "recall": 1.0,
+      "n": 1902
+    }
+  }
+}

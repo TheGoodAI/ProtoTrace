@@ -1,0 +1,683 @@
+{
+  "heldout_001": {
+    "impacted_sections": [
+      "5.2",
+      "5.3",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_dosechange_01"
+    ],
+    "annotator_notes": "Direct change is Section 5.2 (10 mg once daily to 80 mg once daily). I included 5.3 and 11.3 because dose-interruption rules and safety monitoring should be checked after a large exposure change. After Amendment 2, I would treat 80 mg once daily as the current dose and keep 10 mg once daily as the prior protocol state."
+  },
+  "heldout_002": {
+    "impacted_sections": [
+      "4.1",
+      "4.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "This directly changes the renal-function exclusion criterion in 4.2 by lowering the eGFR cutoff from 30 to 20 mL/min/1.73m\u00b2. I also marked 4.1 because broadening eligibility changes the study population being enrolled. I did not mark dosing or monitoring because the amendment does not change treatment administration or visit procedures."
+  },
+  "heldout_003": {
+    "impacted_sections": [
+      "7.2",
+      "8.1",
+      "8.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The amendment adds a Week 4 visit, so 8.1 is directly affected. I also marked 8.2 and 7.2 because the new visit is for an interim efficacy assessment, so the visit procedures and endpoint assessment schedule need to show what is collected at Week 4."
+  },
+  "heldout_004": {
+    "impacted_sections": [
+      "8.1",
+      "8.2",
+      "11.3",
+      "11.4"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "Section 11.3 is the direct change because renal function panels are added every 4 weeks for the first 6 months. I marked 8.1 and 8.2 because that cadence may need to appear in the assessment schedule and visit procedures. I also marked 11.4 because the change is driven by a nephrotoxicity signal that may need safety-review oversight."
+  },
+  "heldout_005": {
+    "impacted_sections": [
+      "7.1",
+      "7.2",
+      "8.2",
+      "12.1"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The primary endpoint stays at Week 52, but a key secondary endpoint at Week 24 is added. I marked 7.1, 7.2, and 12.1 because the endpoint list, endpoint timing, and statistical analysis plan all need updates. I also marked 8.2 so the Week 24 visit procedures include the sustained-remission assessment."
+  },
+  "heldout_006": {
+    "impacted_sections": [
+      "9.1",
+      "9.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ema_gcpqa_s5",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The amendment adds a separate optional genetic sub-study consent. Section 9.1 is direct, and 9.2 should be checked for any assent, separate-consent, or re-consent handling that applies to participating subjects. I did not include the FDA safety-reporting rule because this is not a new safety-risk consent update."
+  },
+  "heldout_007": {
+    "impacted_sections": [
+      "10.1",
+      "10.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "Section 10.1 is directly affected because pregnancy during treatment is added as a mandatory discontinuation criterion. I also marked 10.2 because the protocol should say what withdrawal or follow-up steps occur after discontinuation for pregnancy. I did not mark AE definitions or safety monitoring because the change is not framed as an adverse-event stopping rule."
+  },
+  "heldout_008": {
+    "impacted_sections": [
+      "4.2",
+      "6.1",
+      "6.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "The amendment extends the live-vaccine washout from 2 to 4 weeks before dosing. Section 6.2 is direct, and 6.1 should be checked so the general concomitant-medication language matches the new washout. I also marked 4.2 because screening eligibility depends on prohibited concomitant medications."
+  },
+  "heldout_009": {
+    "impacted_sections": [
+      "5.2",
+      "5.3",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_dosechange_01"
+    ],
+    "annotator_notes": "Direct change is Section 5.2 (20 mg once daily to 120 mg once daily). I included 5.3 and 11.3 because dose-interruption rules and safety monitoring should be checked after a large exposure change. After Amendment 2, I would treat 120 mg once daily as the current dose and keep 20 mg once daily as the prior protocol state."
+  },
+  "heldout_010": {
+    "impacted_sections": [
+      "4.1",
+      "4.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "This directly changes the renal-function exclusion criterion in 4.2 by lowering the eGFR cutoff from 30 to 20 mL/min/1.73m\u00b2. I also marked 4.1 because broadening eligibility changes the study population being enrolled. I did not mark dosing or monitoring because the amendment does not change treatment administration or visit procedures."
+  },
+  "heldout_011": {
+    "impacted_sections": [
+      "7.2",
+      "8.1",
+      "8.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The amendment adds a Week 4 visit, so 8.1 is directly affected. I also marked 8.2 and 7.2 because the new visit is for an interim efficacy assessment, so the visit procedures and endpoint assessment schedule need to show what is collected at Week 4."
+  },
+  "heldout_012": {
+    "impacted_sections": [
+      "8.1",
+      "8.2",
+      "11.3",
+      "11.4"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "Section 11.3 is the direct change because renal function panels are added every 4 weeks for the first 6 months. I marked 8.1 and 8.2 because that cadence may need to appear in the assessment schedule and visit procedures. I also marked 11.4 because the change is driven by a nephrotoxicity signal that may need safety-review oversight."
+  },
+  "heldout_013": {
+    "impacted_sections": [
+      "7.1",
+      "7.2",
+      "8.2",
+      "12.1"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The primary endpoint stays at Week 52, but a key secondary endpoint at Week 24 is added. I marked 7.1, 7.2, and 12.1 because the endpoint list, endpoint timing, and statistical analysis plan all need updates. I also marked 8.2 so the Week 24 visit procedures include the sustained-remission assessment."
+  },
+  "heldout_014": {
+    "impacted_sections": [
+      "9.1",
+      "9.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ema_gcpqa_s5",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The amendment adds a separate optional genetic sub-study consent. Section 9.1 is direct, and 9.2 should be checked for any assent, separate-consent, or re-consent handling that applies to participating subjects. I did not include the FDA safety-reporting rule because this is not a new safety-risk consent update."
+  },
+  "heldout_015": {
+    "impacted_sections": [
+      "10.1",
+      "10.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "Section 10.1 is directly affected because pregnancy during treatment is added as a mandatory discontinuation criterion. I also marked 10.2 because the protocol should say what withdrawal or follow-up steps occur after discontinuation for pregnancy. I did not mark AE definitions or safety monitoring because the change is not framed as an adverse-event stopping rule."
+  },
+  "heldout_016": {
+    "impacted_sections": [
+      "4.2",
+      "6.1",
+      "6.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "The amendment extends the live-vaccine washout from 2 to 4 weeks before dosing. Section 6.2 is direct, and 6.1 should be checked so the general concomitant-medication language matches the new washout. I also marked 4.2 because screening eligibility depends on prohibited concomitant medications."
+  },
+  "heldout_017": {
+    "impacted_sections": [
+      "5.2",
+      "5.3",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_dosechange_01"
+    ],
+    "annotator_notes": "Direct change is Section 5.2 (40 mg once daily to 160 mg once daily). I included 5.3 and 11.3 because dose-interruption rules and safety monitoring should be checked after a large exposure change. After Amendment 2, I would treat 160 mg once daily as the current dose and keep 40 mg once daily as the prior protocol state."
+  },
+  "heldout_018": {
+    "impacted_sections": [
+      "4.1",
+      "4.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "This directly changes the renal-function exclusion criterion in 4.2 by lowering the eGFR cutoff from 30 to 20 mL/min/1.73m\u00b2. I also marked 4.1 because broadening eligibility changes the study population being enrolled. I did not mark dosing or monitoring because the amendment does not change treatment administration or visit procedures."
+  },
+  "heldout_019": {
+    "impacted_sections": [
+      "7.2",
+      "8.1",
+      "8.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The amendment adds a Week 4 visit, so 8.1 is directly affected. I also marked 8.2 and 7.2 because the new visit is for an interim efficacy assessment, so the visit procedures and endpoint assessment schedule need to show what is collected at Week 4."
+  },
+  "heldout_020": {
+    "impacted_sections": [
+      "8.1",
+      "8.2",
+      "11.3",
+      "11.4"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "Section 11.3 is the direct change because renal function panels are added every 4 weeks for the first 6 months. I marked 8.1 and 8.2 because that cadence may need to appear in the assessment schedule and visit procedures. I also marked 11.4 because the change is driven by a nephrotoxicity signal that may need safety-review oversight."
+  },
+  "heldout_021": {
+    "impacted_sections": [
+      "7.1",
+      "7.2",
+      "8.2",
+      "12.1"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The primary endpoint stays at Week 52, but a key secondary endpoint at Week 24 is added. I marked 7.1, 7.2, and 12.1 because the endpoint list, endpoint timing, and statistical analysis plan all need updates. I also marked 8.2 so the Week 24 visit procedures include the sustained-remission assessment."
+  },
+  "heldout_022": {
+    "impacted_sections": [
+      "9.1",
+      "9.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ema_gcpqa_s5",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The amendment adds a separate optional genetic sub-study consent. Section 9.1 is direct, and 9.2 should be checked for any assent, separate-consent, or re-consent handling that applies to participating subjects. I did not include the FDA safety-reporting rule because this is not a new safety-risk consent update."
+  },
+  "heldout_023": {
+    "impacted_sections": [
+      "10.1",
+      "10.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "Section 10.1 is directly affected because pregnancy during treatment is added as a mandatory discontinuation criterion. I also marked 10.2 because the protocol should say what withdrawal or follow-up steps occur after discontinuation for pregnancy. I did not mark AE definitions or safety monitoring because the change is not framed as an adverse-event stopping rule."
+  },
+  "heldout_024": {
+    "impacted_sections": [
+      "4.2",
+      "6.1",
+      "6.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "The amendment extends the live-vaccine washout from 2 to 4 weeks before dosing. Section 6.2 is direct, and 6.1 should be checked so the general concomitant-medication language matches the new washout. I also marked 4.2 because screening eligibility depends on prohibited concomitant medications."
+  },
+  "heldout_025": {
+    "impacted_sections": [
+      "5.2",
+      "5.3",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_dosechange_01"
+    ],
+    "annotator_notes": "Direct change is Section 5.2 (80 mg once daily to 240 mg once daily). I included 5.3 and 11.3 because dose-interruption rules and safety monitoring should be checked after a large exposure change. After Amendment 2, I would treat 240 mg once daily as the current dose and keep 80 mg once daily as the prior protocol state."
+  },
+  "heldout_026": {
+    "impacted_sections": [
+      "4.1",
+      "4.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "This directly changes the renal-function exclusion criterion in 4.2 by lowering the eGFR cutoff from 30 to 20 mL/min/1.73m\u00b2. I also marked 4.1 because broadening eligibility changes the study population being enrolled. I did not mark dosing or monitoring because the amendment does not change treatment administration or visit procedures."
+  },
+  "heldout_027": {
+    "impacted_sections": [
+      "7.2",
+      "8.1",
+      "8.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The amendment adds a Week 4 visit, so 8.1 is directly affected. I also marked 8.2 and 7.2 because the new visit is for an interim efficacy assessment, so the visit procedures and endpoint assessment schedule need to show what is collected at Week 4."
+  },
+  "heldout_028": {
+    "impacted_sections": [
+      "8.1",
+      "8.2",
+      "11.3",
+      "11.4"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "Section 11.3 is the direct change because renal function panels are added every 4 weeks for the first 6 months. I marked 8.1 and 8.2 because that cadence may need to appear in the assessment schedule and visit procedures. I also marked 11.4 because the change is driven by a nephrotoxicity signal that may need safety-review oversight."
+  },
+  "heldout_029": {
+    "impacted_sections": [
+      "7.1",
+      "7.2",
+      "8.2",
+      "12.1"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The primary endpoint stays at Week 52, but a key secondary endpoint at Week 24 is added. I marked 7.1, 7.2, and 12.1 because the endpoint list, endpoint timing, and statistical analysis plan all need updates. I also marked 8.2 so the Week 24 visit procedures include the sustained-remission assessment."
+  },
+  "heldout_030": {
+    "impacted_sections": [
+      "9.1",
+      "9.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ema_gcpqa_s5",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The amendment adds a separate optional genetic sub-study consent. Section 9.1 is direct, and 9.2 should be checked for any assent, separate-consent, or re-consent handling that applies to participating subjects. I did not include the FDA safety-reporting rule because this is not a new safety-risk consent update."
+  },
+  "heldout_031": {
+    "impacted_sections": [
+      "10.1",
+      "10.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "Section 10.1 is directly affected because pregnancy during treatment is added as a mandatory discontinuation criterion. I also marked 10.2 because the protocol should say what withdrawal or follow-up steps occur after discontinuation for pregnancy. I did not mark AE definitions or safety monitoring because the change is not framed as an adverse-event stopping rule."
+  },
+  "heldout_032": {
+    "impacted_sections": [
+      "4.2",
+      "6.1",
+      "6.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "The amendment extends the live-vaccine washout from 2 to 4 weeks before dosing. Section 6.2 is direct, and 6.1 should be checked so the general concomitant-medication language matches the new washout. I also marked 4.2 because screening eligibility depends on prohibited concomitant medications."
+  },
+  "heldout_033": {
+    "impacted_sections": [
+      "5.2",
+      "5.3",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_dosechange_01"
+    ],
+    "annotator_notes": "Direct change is Section 5.2 (120 mg once daily to 10 mg once daily). I included 5.3 and 11.3 because dose-interruption rules and safety monitoring should be checked after a large exposure change. After Amendment 2, I would treat 10 mg once daily as the current dose and keep 120 mg once daily as the prior protocol state."
+  },
+  "heldout_034": {
+    "impacted_sections": [
+      "4.1",
+      "4.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "This directly changes the renal-function exclusion criterion in 4.2 by lowering the eGFR cutoff from 30 to 20 mL/min/1.73m\u00b2. I also marked 4.1 because broadening eligibility changes the study population being enrolled. I did not mark dosing or monitoring because the amendment does not change treatment administration or visit procedures."
+  },
+  "heldout_035": {
+    "impacted_sections": [
+      "7.2",
+      "8.1",
+      "8.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The amendment adds a Week 4 visit, so 8.1 is directly affected. I also marked 8.2 and 7.2 because the new visit is for an interim efficacy assessment, so the visit procedures and endpoint assessment schedule need to show what is collected at Week 4."
+  },
+  "heldout_036": {
+    "impacted_sections": [
+      "8.1",
+      "8.2",
+      "11.3",
+      "11.4"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "Section 11.3 is the direct change because renal function panels are added every 4 weeks for the first 6 months. I marked 8.1 and 8.2 because that cadence may need to appear in the assessment schedule and visit procedures. I also marked 11.4 because the change is driven by a nephrotoxicity signal that may need safety-review oversight."
+  },
+  "heldout_037": {
+    "impacted_sections": [
+      "7.1",
+      "7.2",
+      "8.2",
+      "12.1"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The primary endpoint stays at Week 52, but a key secondary endpoint at Week 24 is added. I marked 7.1, 7.2, and 12.1 because the endpoint list, endpoint timing, and statistical analysis plan all need updates. I also marked 8.2 so the Week 24 visit procedures include the sustained-remission assessment."
+  },
+  "heldout_038": {
+    "impacted_sections": [
+      "9.1",
+      "9.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ema_gcpqa_s5",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The amendment adds a separate optional genetic sub-study consent. Section 9.1 is direct, and 9.2 should be checked for any assent, separate-consent, or re-consent handling that applies to participating subjects. I did not include the FDA safety-reporting rule because this is not a new safety-risk consent update."
+  },
+  "heldout_039": {
+    "impacted_sections": [
+      "10.1",
+      "10.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "Section 10.1 is directly affected because pregnancy during treatment is added as a mandatory discontinuation criterion. I also marked 10.2 because the protocol should say what withdrawal or follow-up steps occur after discontinuation for pregnancy. I did not mark AE definitions or safety monitoring because the change is not framed as an adverse-event stopping rule."
+  },
+  "heldout_040": {
+    "impacted_sections": [
+      "4.2",
+      "6.1",
+      "6.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "The amendment extends the live-vaccine washout from 2 to 4 weeks before dosing. Section 6.2 is direct, and 6.1 should be checked so the general concomitant-medication language matches the new washout. I also marked 4.2 because screening eligibility depends on prohibited concomitant medications."
+  },
+  "heldout_041": {
+    "impacted_sections": [
+      "5.2",
+      "5.3",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_dosechange_01"
+    ],
+    "annotator_notes": "Direct change is Section 5.2 (160 mg once daily to 20 mg once daily). I included 5.3 and 11.3 because dose-interruption rules and safety monitoring should be checked after a large exposure change. After Amendment 2, I would treat 20 mg once daily as the current dose and keep 160 mg once daily as the prior protocol state."
+  },
+  "heldout_042": {
+    "impacted_sections": [
+      "4.1",
+      "4.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "This directly changes the renal-function exclusion criterion in 4.2 by lowering the eGFR cutoff from 30 to 20 mL/min/1.73m\u00b2. I also marked 4.1 because broadening eligibility changes the study population being enrolled. I did not mark dosing or monitoring because the amendment does not change treatment administration or visit procedures."
+  },
+  "heldout_043": {
+    "impacted_sections": [
+      "7.2",
+      "8.1",
+      "8.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The amendment adds a Week 4 visit, so 8.1 is directly affected. I also marked 8.2 and 7.2 because the new visit is for an interim efficacy assessment, so the visit procedures and endpoint assessment schedule need to show what is collected at Week 4."
+  },
+  "heldout_044": {
+    "impacted_sections": [
+      "8.1",
+      "8.2",
+      "11.3",
+      "11.4"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "Section 11.3 is the direct change because renal function panels are added every 4 weeks for the first 6 months. I marked 8.1 and 8.2 because that cadence may need to appear in the assessment schedule and visit procedures. I also marked 11.4 because the change is driven by a nephrotoxicity signal that may need safety-review oversight."
+  },
+  "heldout_045": {
+    "impacted_sections": [
+      "7.1",
+      "7.2",
+      "8.2",
+      "12.1"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The primary endpoint stays at Week 52, but a key secondary endpoint at Week 24 is added. I marked 7.1, 7.2, and 12.1 because the endpoint list, endpoint timing, and statistical analysis plan all need updates. I also marked 8.2 so the Week 24 visit procedures include the sustained-remission assessment."
+  },
+  "heldout_046": {
+    "impacted_sections": [
+      "9.1",
+      "9.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ema_gcpqa_s5",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The amendment adds a separate optional genetic sub-study consent. Section 9.1 is direct, and 9.2 should be checked for any assent, separate-consent, or re-consent handling that applies to participating subjects. I did not include the FDA safety-reporting rule because this is not a new safety-risk consent update."
+  },
+  "heldout_047": {
+    "impacted_sections": [
+      "10.1",
+      "10.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "Section 10.1 is directly affected because pregnancy during treatment is added as a mandatory discontinuation criterion. I also marked 10.2 because the protocol should say what withdrawal or follow-up steps occur after discontinuation for pregnancy. I did not mark AE definitions or safety monitoring because the change is not framed as an adverse-event stopping rule."
+  },
+  "heldout_048": {
+    "impacted_sections": [
+      "4.2",
+      "6.1",
+      "6.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "The amendment extends the live-vaccine washout from 2 to 4 weeks before dosing. Section 6.2 is direct, and 6.1 should be checked so the general concomitant-medication language matches the new washout. I also marked 4.2 because screening eligibility depends on prohibited concomitant medications."
+  },
+  "heldout_049": {
+    "impacted_sections": [
+      "5.2",
+      "5.3",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_dosechange_01"
+    ],
+    "annotator_notes": "Direct change is Section 5.2 (240 mg once daily to 40 mg once daily). I included 5.3 and 11.3 because dose-interruption rules and safety monitoring should be checked after a large exposure change. After Amendment 2, I would treat 40 mg once daily as the current dose and keep 240 mg once daily as the prior protocol state."
+  },
+  "heldout_050": {
+    "impacted_sections": [
+      "4.1",
+      "4.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "This directly changes the renal-function exclusion criterion in 4.2 by lowering the eGFR cutoff from 30 to 20 mL/min/1.73m\u00b2. I also marked 4.1 because broadening eligibility changes the study population being enrolled. I did not mark dosing or monitoring because the amendment does not change treatment administration or visit procedures."
+  }
+}

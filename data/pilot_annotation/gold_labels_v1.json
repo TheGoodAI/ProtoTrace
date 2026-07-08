@@ -1,0 +1,712 @@
+{
+  "pilot_001": {
+    "impacted_sections": [
+      "5.2",
+      "5.3",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_dosechange_01"
+    ],
+    "annotator_notes": "Direct change is Section 5.2 (25 mg once daily to 75 mg once daily). I included 5.3 and 11.3 because dose modification rules and safety monitoring should be checked when exposure changes. After Amendment 1, I would treat 75 mg once daily as the current dose for post-amendment enrollment and keep 25 mg once daily as the prior protocol state."
+  },
+  "pilot_002": {
+    "impacted_sections": [
+      "4.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "This is a direct exclusion-criteria update: the biologic washout window moves from 12 weeks to 16 weeks. I only marked 4.2 because the amendment does not change dosing, visits, endpoints, or monitoring language. After Amendment 1, the operative eligibility rule is the 16-week washout."
+  },
+  "pilot_003": {
+    "impacted_sections": [
+      "8.1",
+      "8.2",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "The amendment adds an interim safety visit at Week 8, so 8.1 is directly affected. I also marked 8.2 and 11.3 because visit procedures and safety labs need to reflect the added visit. This is an added schedule point, not a replacement of the whole visit schedule."
+  },
+  "pilot_004": {
+    "impacted_sections": [
+      "8.1",
+      "8.2",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "Section 11.3 is the direct change because LFT monitoring is more frequent for the first 3 months. I included 8.1 and 8.2 because the extra lab cadence may require added visits or procedures outside the standard schedule. The safety-reporting references apply because the change is driven by a hepatotoxicity signal."
+  },
+  "pilot_005": {
+    "impacted_sections": [
+      "7.1",
+      "7.2",
+      "8.1",
+      "12.1"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The primary endpoint timepoint changes from Week 24 to Week 16. I marked 7.2, 8.1, and 12.1 as downstream checks because the assessment schedule, visit windows, and analysis plan all need to line up with the earlier endpoint. I would use Amendment 1 as the source for the current endpoint timing."
+  },
+  "pilot_006": {
+    "impacted_sections": [
+      "9.1",
+      "9.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ema_gcpqa_s5",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The amendment adds re-consent for currently enrolled subjects because of a newly identified hepatic risk. Section 9.1 is direct, and 9.2 should be checked for any assent or re-consent handling requirements. I included the safety and EMA re-consent references because the consent change is risk-driven."
+  },
+  "pilot_007": {
+    "impacted_sections": [
+      "10.1",
+      "10.2",
+      "11.1",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "Section 10.1 is directly affected because a mandatory stop rule is added for confirmed Grade 3 or higher hepatic AEs. I marked 10.2, 11.1, and 11.3 because withdrawal steps, AE grading/definitions, and monitoring need to be consistent with that new rule. Safety references apply because this is an AE-driven discontinuation change."
+  },
+  "pilot_008": {
+    "impacted_sections": [
+      "4.2",
+      "5.3",
+      "6.1",
+      "6.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "The amendment changes strong CYP3A4 inhibitors from allowed with dose adjustment to prohibited. Section 6.2 is direct; 6.1, 5.3, and 4.2 should also be checked so concomitant-medication instructions, dose-adjustment language, and exclusion criteria do not contradict the new prohibition."
+  },
+  "pilot_009": {
+    "impacted_sections": [
+      "5.2",
+      "5.3",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_dosechange_01"
+    ],
+    "annotator_notes": "Direct change is Section 5.2 (50 mg once daily to 100 mg once daily). I included 5.3 and 11.3 because dose modification rules and safety monitoring should be checked when exposure changes. After Amendment 1, I would treat 100 mg once daily as the current dose for post-amendment enrollment and keep 50 mg once daily as the prior protocol state."
+  },
+  "pilot_010": {
+    "impacted_sections": [
+      "4.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "This is a direct exclusion-criteria update: the biologic washout window moves from 12 weeks to 16 weeks. I only marked 4.2 because the amendment does not change dosing, visits, endpoints, or monitoring language. After Amendment 1, the operative eligibility rule is the 16-week washout."
+  },
+  "pilot_011": {
+    "impacted_sections": [
+      "8.1",
+      "8.2",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "The amendment adds an interim safety visit at Week 8, so 8.1 is directly affected. I also marked 8.2 and 11.3 because visit procedures and safety labs need to reflect the added visit. This is an added schedule point, not a replacement of the whole visit schedule."
+  },
+  "pilot_012": {
+    "impacted_sections": [
+      "8.1",
+      "8.2",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "Section 11.3 is the direct change because LFT monitoring is more frequent for the first 3 months. I included 8.1 and 8.2 because the extra lab cadence may require added visits or procedures outside the standard schedule. The safety-reporting references apply because the change is driven by a hepatotoxicity signal."
+  },
+  "pilot_013": {
+    "impacted_sections": [
+      "7.1",
+      "7.2",
+      "8.1",
+      "12.1"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The primary endpoint timepoint changes from Week 24 to Week 16. I marked 7.2, 8.1, and 12.1 as downstream checks because the assessment schedule, visit windows, and analysis plan all need to line up with the earlier endpoint. I would use Amendment 1 as the source for the current endpoint timing."
+  },
+  "pilot_014": {
+    "impacted_sections": [
+      "9.1",
+      "9.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ema_gcpqa_s5",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The amendment adds re-consent for currently enrolled subjects because of a newly identified hepatic risk. Section 9.1 is direct, and 9.2 should be checked for any assent or re-consent handling requirements. I included the safety and EMA re-consent references because the consent change is risk-driven."
+  },
+  "pilot_015": {
+    "impacted_sections": [
+      "10.1",
+      "10.2",
+      "11.1",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "Section 10.1 is directly affected because a mandatory stop rule is added for confirmed Grade 3 or higher hepatic AEs. I marked 10.2, 11.1, and 11.3 because withdrawal steps, AE grading/definitions, and monitoring need to be consistent with that new rule. Safety references apply because this is an AE-driven discontinuation change."
+  },
+  "pilot_016": {
+    "impacted_sections": [
+      "4.2",
+      "5.3",
+      "6.1",
+      "6.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "The amendment changes strong CYP3A4 inhibitors from allowed with dose adjustment to prohibited. Section 6.2 is direct; 6.1, 5.3, and 4.2 should also be checked so concomitant-medication instructions, dose-adjustment language, and exclusion criteria do not contradict the new prohibition."
+  },
+  "pilot_017": {
+    "impacted_sections": [
+      "5.2",
+      "5.3",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_dosechange_01"
+    ],
+    "annotator_notes": "Direct change is Section 5.2 (75 mg once daily to 150 mg once daily). I included 5.3 and 11.3 because dose modification rules and safety monitoring should be checked when exposure changes. After Amendment 1, I would treat 150 mg once daily as the current dose for post-amendment enrollment and keep 75 mg once daily as the prior protocol state."
+  },
+  "pilot_018": {
+    "impacted_sections": [
+      "4.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "This is a direct exclusion-criteria update: the biologic washout window moves from 12 weeks to 16 weeks. I only marked 4.2 because the amendment does not change dosing, visits, endpoints, or monitoring language. After Amendment 1, the operative eligibility rule is the 16-week washout."
+  },
+  "pilot_019": {
+    "impacted_sections": [
+      "8.1",
+      "8.2",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "The amendment adds an interim safety visit at Week 8, so 8.1 is directly affected. I also marked 8.2 and 11.3 because visit procedures and safety labs need to reflect the added visit. This is an added schedule point, not a replacement of the whole visit schedule."
+  },
+  "pilot_020": {
+    "impacted_sections": [
+      "8.1",
+      "8.2",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "Section 11.3 is the direct change because LFT monitoring is more frequent for the first 3 months. I included 8.1 and 8.2 because the extra lab cadence may require added visits or procedures outside the standard schedule. The safety-reporting references apply because the change is driven by a hepatotoxicity signal."
+  },
+  "pilot_021": {
+    "impacted_sections": [
+      "7.1",
+      "7.2",
+      "8.1",
+      "12.1"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The primary endpoint timepoint changes from Week 24 to Week 16. I marked 7.2, 8.1, and 12.1 as downstream checks because the assessment schedule, visit windows, and analysis plan all need to line up with the earlier endpoint. I would use Amendment 1 as the source for the current endpoint timing."
+  },
+  "pilot_022": {
+    "impacted_sections": [
+      "9.1",
+      "9.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ema_gcpqa_s5",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The amendment adds re-consent for currently enrolled subjects because of a newly identified hepatic risk. Section 9.1 is direct, and 9.2 should be checked for any assent or re-consent handling requirements. I included the safety and EMA re-consent references because the consent change is risk-driven."
+  },
+  "pilot_023": {
+    "impacted_sections": [
+      "10.1",
+      "10.2",
+      "11.1",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "Section 10.1 is directly affected because a mandatory stop rule is added for confirmed Grade 3 or higher hepatic AEs. I marked 10.2, 11.1, and 11.3 because withdrawal steps, AE grading/definitions, and monitoring need to be consistent with that new rule. Safety references apply because this is an AE-driven discontinuation change."
+  },
+  "pilot_024": {
+    "impacted_sections": [
+      "4.2",
+      "5.3",
+      "6.1",
+      "6.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "The amendment changes strong CYP3A4 inhibitors from allowed with dose adjustment to prohibited. Section 6.2 is direct; 6.1, 5.3, and 4.2 should also be checked so concomitant-medication instructions, dose-adjustment language, and exclusion criteria do not contradict the new prohibition."
+  },
+  "pilot_025": {
+    "impacted_sections": [
+      "5.2",
+      "5.3",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_dosechange_01"
+    ],
+    "annotator_notes": "Direct change is Section 5.2 (100 mg once daily to 200 mg once daily). I included 5.3 and 11.3 because dose modification rules and safety monitoring should be checked when exposure changes. After Amendment 1, I would treat 200 mg once daily as the current dose for post-amendment enrollment and keep 100 mg once daily as the prior protocol state."
+  },
+  "pilot_026": {
+    "impacted_sections": [
+      "4.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "This is a direct exclusion-criteria update: the biologic washout window moves from 12 weeks to 16 weeks. I only marked 4.2 because the amendment does not change dosing, visits, endpoints, or monitoring language. After Amendment 1, the operative eligibility rule is the 16-week washout."
+  },
+  "pilot_027": {
+    "impacted_sections": [
+      "8.1",
+      "8.2",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "The amendment adds an interim safety visit at Week 8, so 8.1 is directly affected. I also marked 8.2 and 11.3 because visit procedures and safety labs need to reflect the added visit. This is an added schedule point, not a replacement of the whole visit schedule."
+  },
+  "pilot_028": {
+    "impacted_sections": [
+      "8.1",
+      "8.2",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "Section 11.3 is the direct change because LFT monitoring is more frequent for the first 3 months. I included 8.1 and 8.2 because the extra lab cadence may require added visits or procedures outside the standard schedule. The safety-reporting references apply because the change is driven by a hepatotoxicity signal."
+  },
+  "pilot_029": {
+    "impacted_sections": [
+      "7.1",
+      "7.2",
+      "8.1",
+      "12.1"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The primary endpoint timepoint changes from Week 24 to Week 16. I marked 7.2, 8.1, and 12.1 as downstream checks because the assessment schedule, visit windows, and analysis plan all need to line up with the earlier endpoint. I would use Amendment 1 as the source for the current endpoint timing."
+  },
+  "pilot_030": {
+    "impacted_sections": [
+      "9.1",
+      "9.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ema_gcpqa_s5",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The amendment adds re-consent for currently enrolled subjects because of a newly identified hepatic risk. Section 9.1 is direct, and 9.2 should be checked for any assent or re-consent handling requirements. I included the safety and EMA re-consent references because the consent change is risk-driven."
+  },
+  "pilot_031": {
+    "impacted_sections": [
+      "10.1",
+      "10.2",
+      "11.1",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "Section 10.1 is directly affected because a mandatory stop rule is added for confirmed Grade 3 or higher hepatic AEs. I marked 10.2, 11.1, and 11.3 because withdrawal steps, AE grading/definitions, and monitoring need to be consistent with that new rule. Safety references apply because this is an AE-driven discontinuation change."
+  },
+  "pilot_032": {
+    "impacted_sections": [
+      "4.2",
+      "5.3",
+      "6.1",
+      "6.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "The amendment changes strong CYP3A4 inhibitors from allowed with dose adjustment to prohibited. Section 6.2 is direct; 6.1, 5.3, and 4.2 should also be checked so concomitant-medication instructions, dose-adjustment language, and exclusion criteria do not contradict the new prohibition."
+  },
+  "pilot_033": {
+    "impacted_sections": [
+      "5.2",
+      "5.3",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_dosechange_01"
+    ],
+    "annotator_notes": "Direct change is Section 5.2 (150 mg once daily to 300 mg once daily). I included 5.3 and 11.3 because dose modification rules and safety monitoring should be checked when exposure changes. After Amendment 1, I would treat 300 mg once daily as the current dose for post-amendment enrollment and keep 150 mg once daily as the prior protocol state."
+  },
+  "pilot_034": {
+    "impacted_sections": [
+      "4.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "This is a direct exclusion-criteria update: the biologic washout window moves from 12 weeks to 16 weeks. I only marked 4.2 because the amendment does not change dosing, visits, endpoints, or monitoring language. After Amendment 1, the operative eligibility rule is the 16-week washout."
+  },
+  "pilot_035": {
+    "impacted_sections": [
+      "8.1",
+      "8.2",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "The amendment adds an interim safety visit at Week 8, so 8.1 is directly affected. I also marked 8.2 and 11.3 because visit procedures and safety labs need to reflect the added visit. This is an added schedule point, not a replacement of the whole visit schedule."
+  },
+  "pilot_036": {
+    "impacted_sections": [
+      "8.1",
+      "8.2",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "Section 11.3 is the direct change because LFT monitoring is more frequent for the first 3 months. I included 8.1 and 8.2 because the extra lab cadence may require added visits or procedures outside the standard schedule. The safety-reporting references apply because the change is driven by a hepatotoxicity signal."
+  },
+  "pilot_037": {
+    "impacted_sections": [
+      "7.1",
+      "7.2",
+      "8.1",
+      "12.1"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The primary endpoint timepoint changes from Week 24 to Week 16. I marked 7.2, 8.1, and 12.1 as downstream checks because the assessment schedule, visit windows, and analysis plan all need to line up with the earlier endpoint. I would use Amendment 1 as the source for the current endpoint timing."
+  },
+  "pilot_038": {
+    "impacted_sections": [
+      "9.1",
+      "9.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ema_gcpqa_s5",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The amendment adds re-consent for currently enrolled subjects because of a newly identified hepatic risk. Section 9.1 is direct, and 9.2 should be checked for any assent or re-consent handling requirements. I included the safety and EMA re-consent references because the consent change is risk-driven."
+  },
+  "pilot_039": {
+    "impacted_sections": [
+      "10.1",
+      "10.2",
+      "11.1",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "Section 10.1 is directly affected because a mandatory stop rule is added for confirmed Grade 3 or higher hepatic AEs. I marked 10.2, 11.1, and 11.3 because withdrawal steps, AE grading/definitions, and monitoring need to be consistent with that new rule. Safety references apply because this is an AE-driven discontinuation change."
+  },
+  "pilot_040": {
+    "impacted_sections": [
+      "4.2",
+      "5.3",
+      "6.1",
+      "6.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "The amendment changes strong CYP3A4 inhibitors from allowed with dose adjustment to prohibited. Section 6.2 is direct; 6.1, 5.3, and 4.2 should also be checked so concomitant-medication instructions, dose-adjustment language, and exclusion criteria do not contradict the new prohibition."
+  },
+  "pilot_041": {
+    "impacted_sections": [
+      "5.2",
+      "5.3",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_dosechange_01"
+    ],
+    "annotator_notes": "Direct change is Section 5.2 (200 mg once daily to 25 mg once daily). I included 5.3 and 11.3 because dose modification rules and safety monitoring should be checked when exposure changes. After Amendment 1, I would treat 25 mg once daily as the current dose for post-amendment enrollment and keep 200 mg once daily as the prior protocol state."
+  },
+  "pilot_042": {
+    "impacted_sections": [
+      "4.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "This is a direct exclusion-criteria update: the biologic washout window moves from 12 weeks to 16 weeks. I only marked 4.2 because the amendment does not change dosing, visits, endpoints, or monitoring language. After Amendment 1, the operative eligibility rule is the 16-week washout."
+  },
+  "pilot_043": {
+    "impacted_sections": [
+      "8.1",
+      "8.2",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "The amendment adds an interim safety visit at Week 8, so 8.1 is directly affected. I also marked 8.2 and 11.3 because visit procedures and safety labs need to reflect the added visit. This is an added schedule point, not a replacement of the whole visit schedule."
+  },
+  "pilot_044": {
+    "impacted_sections": [
+      "8.1",
+      "8.2",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "Section 11.3 is the direct change because LFT monitoring is more frequent for the first 3 months. I included 8.1 and 8.2 because the extra lab cadence may require added visits or procedures outside the standard schedule. The safety-reporting references apply because the change is driven by a hepatotoxicity signal."
+  },
+  "pilot_045": {
+    "impacted_sections": [
+      "7.1",
+      "7.2",
+      "8.1",
+      "12.1"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The primary endpoint timepoint changes from Week 24 to Week 16. I marked 7.2, 8.1, and 12.1 as downstream checks because the assessment schedule, visit windows, and analysis plan all need to line up with the earlier endpoint. I would use Amendment 1 as the source for the current endpoint timing."
+  },
+  "pilot_046": {
+    "impacted_sections": [
+      "9.1",
+      "9.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ema_gcpqa_s5",
+      "ich_e6r2_s4_5"
+    ],
+    "annotator_notes": "The amendment adds re-consent for currently enrolled subjects because of a newly identified hepatic risk. Section 9.1 is direct, and 9.2 should be checked for any assent or re-consent handling requirements. I included the safety and EMA re-consent references because the consent change is risk-driven."
+  },
+  "pilot_047": {
+    "impacted_sections": [
+      "10.1",
+      "10.2",
+      "11.1",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "fda_21cfr312_32",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_safetymonitoring_02"
+    ],
+    "annotator_notes": "Section 10.1 is directly affected because a mandatory stop rule is added for confirmed Grade 3 or higher hepatic AEs. I marked 10.2, 11.1, and 11.3 because withdrawal steps, AE grading/definitions, and monitoring need to be consistent with that new rule. Safety references apply because this is an AE-driven discontinuation change."
+  },
+  "pilot_048": {
+    "impacted_sections": [
+      "4.2",
+      "5.3",
+      "6.1",
+      "6.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "The amendment changes strong CYP3A4 inhibitors from allowed with dose adjustment to prohibited. Section 6.2 is direct; 6.1, 5.3, and 4.2 should also be checked so concomitant-medication instructions, dose-adjustment language, and exclusion criteria do not contradict the new prohibition."
+  },
+  "pilot_049": {
+    "impacted_sections": [
+      "5.2",
+      "5.3",
+      "11.3"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_dosechange_01"
+    ],
+    "annotator_notes": "Direct change is Section 5.2 (300 mg once daily to 50 mg once daily). I included 5.3 and 11.3 because dose modification rules and safety monitoring should be checked when exposure changes. After Amendment 1, I would treat 50 mg once daily as the current dose for post-amendment enrollment and keep 300 mg once daily as the prior protocol state."
+  },
+  "pilot_050": {
+    "impacted_sections": [
+      "4.2"
+    ],
+    "governing_sources": [
+      "fda_21cfr312_30",
+      "ema_gcpqa_s3",
+      "ich_e6r2_s4_5",
+      "sop_eligibility_03"
+    ],
+    "annotator_notes": "This is a direct exclusion-criteria update: the biologic washout window moves from 12 weeks to 16 weeks. I only marked 4.2 because the amendment does not change dosing, visits, endpoints, or monitoring language. After Amendment 1, the operative eligibility rule is the 16-week washout."
+  }
+}

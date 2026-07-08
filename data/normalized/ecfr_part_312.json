@@ -1,0 +1,32 @@
+{
+  "source_id": "ecfr_part_312",
+  "family": "CFR",
+  "label": "21 CFR Part 312",
+  "kind": "web_page",
+  "seed_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312",
+  "resolved_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312",
+  "retrieved_at": "2026-05-21T22:30:00-04:00",
+  "retrieved_via": "web_tool",
+  "title": "eCFR :: 21 CFR Part 312 -- Investigational New Drug Application",
+  "text": "The eCFR page states that the Electronic Code of Federal Regulations is a continuously updated online version of the CFR and is not an official legal edition. Part 312 contains procedures and requirements governing the use of investigational new drugs, including submission to and review by FDA of investigational new drug applications. An investigational new drug for which an IND is in effect under this part is exempt from otherwise applicable premarketing approval requirements for the purpose of conducting clinical investigations.",
+  "sections": [
+    {
+      "heading": "eCFR note",
+      "text": "The eCFR is a continuously updated online version of the CFR and is not an official legal edition."
+    },
+    {
+      "heading": "Part 312 scope",
+      "text": "Part 312 contains procedures and requirements governing the use of investigational new drugs and IND submissions and review."
+    },
+    {
+      "heading": "IND effect",
+      "text": "An investigational new drug with an IND in effect under this part is exempt from otherwise applicable premarketing approval requirements for clinical investigations."
+    }
+  ],
+  "citation_spans": [
+    {
+      "locator": "lines 270-295",
+      "quoted_text": "This part contains procedures and requirements governing the use of investigational new drugs."
+    }
+  ]
+}

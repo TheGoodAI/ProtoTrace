@@ -1,0 +1,54 @@
+scenario:
+  id: protocol_amendment_demo
+  title: Protocol Amendment Drafting
+  objective: Show active versus superseded claim handling in version-aware drafting and validation.
+
+documents:
+  - protocol_v1
+  - protocol_amendment_v2
+  - sop_dose_change_citation
+  - visit_schedule_table
+
+tasks:
+  - id: D1
+    label: Ask current fact
+    user_prompt: What is the current dose?
+    expected_behavior:
+      - return active claim
+      - show citation
+      - hide superseded fact from final answer
+
+  - id: D2
+    label: Ask what changed
+    user_prompt: What changed from v1 to v2?
+    expected_behavior:
+      - show active claim
+      - show superseded claim
+      - explain temporal change
+
+  - id: D3
+    label: Draft section
+    user_prompt: Draft the dosing section for the updated protocol.
+    expected_behavior:
+      - generate text with citations
+      - use active claims only
+
+  - id: D4
+    label: Validate flawed draft
+    user_prompt: Validate this dosing draft for stale or unsupported claims.
+    expected_behavior:
+      - flag stale 50 mg reference
+      - flag missing citation if present
+
+  - id: D5
+    label: Approve correction
+    user_prompt: Approve the corrected dose claim and update the ledger.
+    expected_behavior:
+      - update claim status or review state
+      - preserve provenance
+
+  - id: D6
+    label: Ask again
+    user_prompt: What is the current dose now?
+    expected_behavior:
+      - use approved active claim from ledger

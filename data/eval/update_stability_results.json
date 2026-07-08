@@ -1,0 +1,1635 @@
+{
+  "scenario_count": 20,
+  "results": [
+    {
+      "scenario_id": "update_scenario_1",
+      "step_index": 1,
+      "new_dose_mg": 80,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 7.261
+    },
+    {
+      "scenario_id": "update_scenario_1",
+      "step_index": 1,
+      "new_dose_mg": 80,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 2.683
+    },
+    {
+      "scenario_id": "update_scenario_1",
+      "step_index": 2,
+      "new_dose_mg": 95,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 4.654
+    },
+    {
+      "scenario_id": "update_scenario_1",
+      "step_index": 2,
+      "new_dose_mg": 95,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 1.712
+    },
+    {
+      "scenario_id": "update_scenario_2",
+      "step_index": 1,
+      "new_dose_mg": 80,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 8.752
+    },
+    {
+      "scenario_id": "update_scenario_2",
+      "step_index": 1,
+      "new_dose_mg": 80,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 5.459
+    },
+    {
+      "scenario_id": "update_scenario_2",
+      "step_index": 2,
+      "new_dose_mg": 110,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 8.867
+    },
+    {
+      "scenario_id": "update_scenario_2",
+      "step_index": 2,
+      "new_dose_mg": 110,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 4.724
+    },
+    {
+      "scenario_id": "update_scenario_3",
+      "step_index": 1,
+      "new_dose_mg": 95,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 5.607
+    },
+    {
+      "scenario_id": "update_scenario_3",
+      "step_index": 1,
+      "new_dose_mg": 95,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 3.209
+    },
+    {
+      "scenario_id": "update_scenario_3",
+      "step_index": 2,
+      "new_dose_mg": 85,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 6.197
+    },
+    {
+      "scenario_id": "update_scenario_3",
+      "step_index": 2,
+      "new_dose_mg": 85,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 2.64
+    },
+    {
+      "scenario_id": "update_scenario_4",
+      "step_index": 1,
+      "new_dose_mg": 110,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 4.815
+    },
+    {
+      "scenario_id": "update_scenario_4",
+      "step_index": 1,
+      "new_dose_mg": 110,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 1.959
+    },
+    {
+      "scenario_id": "update_scenario_4",
+      "step_index": 2,
+      "new_dose_mg": 90,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 4.247
+    },
+    {
+      "scenario_id": "update_scenario_4",
+      "step_index": 2,
+      "new_dose_mg": 90,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 2.26
+    },
+    {
+      "scenario_id": "update_scenario_5",
+      "step_index": 1,
+      "new_dose_mg": 130,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 6.434
+    },
+    {
+      "scenario_id": "update_scenario_5",
+      "step_index": 1,
+      "new_dose_mg": 130,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 2.526
+    },
+    {
+      "scenario_id": "update_scenario_5",
+      "step_index": 2,
+      "new_dose_mg": 140,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 6.053
+    },
+    {
+      "scenario_id": "update_scenario_5",
+      "step_index": 2,
+      "new_dose_mg": 140,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 3.719
+    },
+    {
+      "scenario_id": "update_scenario_6",
+      "step_index": 1,
+      "new_dose_mg": 150,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 6.126
+    },
+    {
+      "scenario_id": "update_scenario_6",
+      "step_index": 1,
+      "new_dose_mg": 150,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 3.292
+    },
+    {
+      "scenario_id": "update_scenario_6",
+      "step_index": 2,
+      "new_dose_mg": 140,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 6.426
+    },
+    {
+      "scenario_id": "update_scenario_6",
+      "step_index": 2,
+      "new_dose_mg": 140,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 4.633
+    },
+    {
+      "scenario_id": "update_scenario_7",
+      "step_index": 1,
+      "new_dose_mg": 95,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 6.448
+    },
+    {
+      "scenario_id": "update_scenario_7",
+      "step_index": 1,
+      "new_dose_mg": 95,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 2.871
+    },
+    {
+      "scenario_id": "update_scenario_7",
+      "step_index": 2,
+      "new_dose_mg": 85,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 4.249
+    },
+    {
+      "scenario_id": "update_scenario_7",
+      "step_index": 2,
+      "new_dose_mg": 85,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 3.181
+    },
+    {
+      "scenario_id": "update_scenario_7",
+      "step_index": 3,
+      "new_dose_mg": 115,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 7.158
+    },
+    {
+      "scenario_id": "update_scenario_7",
+      "step_index": 3,
+      "new_dose_mg": 115,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 3.49
+    },
+    {
+      "scenario_id": "update_scenario_8",
+      "step_index": 1,
+      "new_dose_mg": 150,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 9.422
+    },
+    {
+      "scenario_id": "update_scenario_8",
+      "step_index": 1,
+      "new_dose_mg": 150,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 3.789
+    },
+    {
+      "scenario_id": "update_scenario_8",
+      "step_index": 2,
+      "new_dose_mg": 140,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 7.03
+    },
+    {
+      "scenario_id": "update_scenario_8",
+      "step_index": 2,
+      "new_dose_mg": 140,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 2.668
+    },
+    {
+      "scenario_id": "update_scenario_8",
+      "step_index": 3,
+      "new_dose_mg": 160,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 6.048
+    },
+    {
+      "scenario_id": "update_scenario_8",
+      "step_index": 3,
+      "new_dose_mg": 160,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 2.833
+    },
+    {
+      "scenario_id": "update_scenario_9",
+      "step_index": 1,
+      "new_dose_mg": 88,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 4.62
+    },
+    {
+      "scenario_id": "update_scenario_9",
+      "step_index": 1,
+      "new_dose_mg": 88,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 1.857
+    },
+    {
+      "scenario_id": "update_scenario_9",
+      "step_index": 2,
+      "new_dose_mg": 104,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 4.607
+    },
+    {
+      "scenario_id": "update_scenario_9",
+      "step_index": 2,
+      "new_dose_mg": 104,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 2.659
+    },
+    {
+      "scenario_id": "update_scenario_9",
+      "step_index": 3,
+      "new_dose_mg": 92,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 6.336
+    },
+    {
+      "scenario_id": "update_scenario_9",
+      "step_index": 3,
+      "new_dose_mg": 92,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 2.779
+    },
+    {
+      "scenario_id": "update_scenario_10",
+      "step_index": 1,
+      "new_dose_mg": 82,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 4.279
+    },
+    {
+      "scenario_id": "update_scenario_10",
+      "step_index": 1,
+      "new_dose_mg": 82,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 1.842
+    },
+    {
+      "scenario_id": "update_scenario_10",
+      "step_index": 2,
+      "new_dose_mg": 96,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 4.522
+    },
+    {
+      "scenario_id": "update_scenario_10",
+      "step_index": 2,
+      "new_dose_mg": 96,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 1.944
+    },
+    {
+      "scenario_id": "update_scenario_10",
+      "step_index": 3,
+      "new_dose_mg": 108,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 5.64
+    },
+    {
+      "scenario_id": "update_scenario_10",
+      "step_index": 3,
+      "new_dose_mg": 108,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 2.379
+    },
+    {
+      "scenario_id": "update_scenario_11",
+      "step_index": 1,
+      "new_dose_mg": 100,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 7.962
+    },
+    {
+      "scenario_id": "update_scenario_11",
+      "step_index": 1,
+      "new_dose_mg": 100,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 2.534
+    },
+    {
+      "scenario_id": "update_scenario_11",
+      "step_index": 2,
+      "new_dose_mg": 90,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 8.04
+    },
+    {
+      "scenario_id": "update_scenario_11",
+      "step_index": 2,
+      "new_dose_mg": 90,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 3.482
+    },
+    {
+      "scenario_id": "update_scenario_11",
+      "step_index": 3,
+      "new_dose_mg": 105,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 7.196
+    },
+    {
+      "scenario_id": "update_scenario_11",
+      "step_index": 3,
+      "new_dose_mg": 105,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 3.422
+    },
+    {
+      "scenario_id": "update_scenario_12",
+      "step_index": 1,
+      "new_dose_mg": 75,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 3,
+        "edges_delta": 12
+      },
+      "latency_ms": 8.48
+    },
+    {
+      "scenario_id": "update_scenario_12",
+      "step_index": 1,
+      "new_dose_mg": 75,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 3,
+        "edges_delta": 12
+      },
+      "latency_ms": 3.544
+    },
+    {
+      "scenario_id": "update_scenario_12",
+      "step_index": 2,
+      "new_dose_mg": 85,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 7.006
+    },
+    {
+      "scenario_id": "update_scenario_12",
+      "step_index": 2,
+      "new_dose_mg": 85,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 2.361
+    },
+    {
+      "scenario_id": "update_scenario_12",
+      "step_index": 3,
+      "new_dose_mg": 95,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 4.893
+    },
+    {
+      "scenario_id": "update_scenario_12",
+      "step_index": 3,
+      "new_dose_mg": 95,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 2.604
+    },
+    {
+      "scenario_id": "update_scenario_13",
+      "step_index": 1,
+      "new_dose_mg": 85,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 6.047
+    },
+    {
+      "scenario_id": "update_scenario_13",
+      "step_index": 1,
+      "new_dose_mg": 85,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 3.118
+    },
+    {
+      "scenario_id": "update_scenario_13",
+      "step_index": 2,
+      "new_dose_mg": 100,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 5.984
+    },
+    {
+      "scenario_id": "update_scenario_13",
+      "step_index": 2,
+      "new_dose_mg": 100,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 4.38
+    },
+    {
+      "scenario_id": "update_scenario_13",
+      "step_index": 3,
+      "new_dose_mg": 120,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 6.536
+    },
+    {
+      "scenario_id": "update_scenario_13",
+      "step_index": 3,
+      "new_dose_mg": 120,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 2.484
+    },
+    {
+      "scenario_id": "update_scenario_14",
+      "step_index": 1,
+      "new_dose_mg": 90,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 4.252
+    },
+    {
+      "scenario_id": "update_scenario_14",
+      "step_index": 1,
+      "new_dose_mg": 90,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 2.037
+    },
+    {
+      "scenario_id": "update_scenario_14",
+      "step_index": 2,
+      "new_dose_mg": 110,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 5.202
+    },
+    {
+      "scenario_id": "update_scenario_14",
+      "step_index": 2,
+      "new_dose_mg": 110,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 2.468
+    },
+    {
+      "scenario_id": "update_scenario_14",
+      "step_index": 3,
+      "new_dose_mg": 100,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 9.838
+    },
+    {
+      "scenario_id": "update_scenario_14",
+      "step_index": 3,
+      "new_dose_mg": 100,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 5.543
+    },
+    {
+      "scenario_id": "update_scenario_15",
+      "step_index": 1,
+      "new_dose_mg": 100,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 6.536
+    },
+    {
+      "scenario_id": "update_scenario_15",
+      "step_index": 1,
+      "new_dose_mg": 100,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 6.249
+    },
+    {
+      "scenario_id": "update_scenario_15",
+      "step_index": 2,
+      "new_dose_mg": 120,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 6.162
+    },
+    {
+      "scenario_id": "update_scenario_15",
+      "step_index": 2,
+      "new_dose_mg": 120,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 3.525
+    },
+    {
+      "scenario_id": "update_scenario_15",
+      "step_index": 3,
+      "new_dose_mg": 140,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 6.964
+    },
+    {
+      "scenario_id": "update_scenario_15",
+      "step_index": 3,
+      "new_dose_mg": 140,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 3.487
+    },
+    {
+      "scenario_id": "update_scenario_16",
+      "step_index": 1,
+      "new_dose_mg": 130,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 6.236
+    },
+    {
+      "scenario_id": "update_scenario_16",
+      "step_index": 1,
+      "new_dose_mg": 130,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 3.154
+    },
+    {
+      "scenario_id": "update_scenario_16",
+      "step_index": 2,
+      "new_dose_mg": 120,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 9.498
+    },
+    {
+      "scenario_id": "update_scenario_16",
+      "step_index": 2,
+      "new_dose_mg": 120,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 3.093
+    },
+    {
+      "scenario_id": "update_scenario_16",
+      "step_index": 3,
+      "new_dose_mg": 125,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 6.508
+    },
+    {
+      "scenario_id": "update_scenario_16",
+      "step_index": 3,
+      "new_dose_mg": 125,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 4.607
+    },
+    {
+      "scenario_id": "update_scenario_17",
+      "step_index": 1,
+      "new_dose_mg": 145,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 5.476
+    },
+    {
+      "scenario_id": "update_scenario_17",
+      "step_index": 1,
+      "new_dose_mg": 145,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 3.922
+    },
+    {
+      "scenario_id": "update_scenario_17",
+      "step_index": 2,
+      "new_dose_mg": 130,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 6.332
+    },
+    {
+      "scenario_id": "update_scenario_17",
+      "step_index": 2,
+      "new_dose_mg": 130,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 3.013
+    },
+    {
+      "scenario_id": "update_scenario_17",
+      "step_index": 3,
+      "new_dose_mg": 150,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 6.571
+    },
+    {
+      "scenario_id": "update_scenario_17",
+      "step_index": 3,
+      "new_dose_mg": 150,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 3.381
+    },
+    {
+      "scenario_id": "update_scenario_18",
+      "step_index": 1,
+      "new_dose_mg": 70,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 4.849
+    },
+    {
+      "scenario_id": "update_scenario_18",
+      "step_index": 1,
+      "new_dose_mg": 70,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 4.651
+    },
+    {
+      "scenario_id": "update_scenario_18",
+      "step_index": 2,
+      "new_dose_mg": 85,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 9.02
+    },
+    {
+      "scenario_id": "update_scenario_18",
+      "step_index": 2,
+      "new_dose_mg": 85,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 4.061
+    },
+    {
+      "scenario_id": "update_scenario_18",
+      "step_index": 3,
+      "new_dose_mg": 100,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 7.893
+    },
+    {
+      "scenario_id": "update_scenario_18",
+      "step_index": 3,
+      "new_dose_mg": 100,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 2.94
+    },
+    {
+      "scenario_id": "update_scenario_18",
+      "step_index": 4,
+      "new_dose_mg": 110,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 5.13
+    },
+    {
+      "scenario_id": "update_scenario_18",
+      "step_index": 4,
+      "new_dose_mg": 110,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 2.827
+    },
+    {
+      "scenario_id": "update_scenario_19",
+      "step_index": 1,
+      "new_dose_mg": 80,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 4.633
+    },
+    {
+      "scenario_id": "update_scenario_19",
+      "step_index": 1,
+      "new_dose_mg": 80,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 2.282
+    },
+    {
+      "scenario_id": "update_scenario_19",
+      "step_index": 2,
+      "new_dose_mg": 100,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 4.764
+    },
+    {
+      "scenario_id": "update_scenario_19",
+      "step_index": 2,
+      "new_dose_mg": 100,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 2.017
+    },
+    {
+      "scenario_id": "update_scenario_19",
+      "step_index": 3,
+      "new_dose_mg": 95,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 7.709
+    },
+    {
+      "scenario_id": "update_scenario_19",
+      "step_index": 3,
+      "new_dose_mg": 95,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 4.235
+    },
+    {
+      "scenario_id": "update_scenario_19",
+      "step_index": 4,
+      "new_dose_mg": 115,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 8.445
+    },
+    {
+      "scenario_id": "update_scenario_19",
+      "step_index": 4,
+      "new_dose_mg": 115,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 5.217
+    },
+    {
+      "scenario_id": "update_scenario_20",
+      "step_index": 1,
+      "new_dose_mg": 90,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 8.572
+    },
+    {
+      "scenario_id": "update_scenario_20",
+      "step_index": 1,
+      "new_dose_mg": 90,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 3.184
+    },
+    {
+      "scenario_id": "update_scenario_20",
+      "step_index": 2,
+      "new_dose_mg": 105,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 7.659
+    },
+    {
+      "scenario_id": "update_scenario_20",
+      "step_index": 2,
+      "new_dose_mg": 105,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 2.698
+    },
+    {
+      "scenario_id": "update_scenario_20",
+      "step_index": 3,
+      "new_dose_mg": 120,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 7.127
+    },
+    {
+      "scenario_id": "update_scenario_20",
+      "step_index": 3,
+      "new_dose_mg": 120,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 1.95
+    },
+    {
+      "scenario_id": "update_scenario_20",
+      "step_index": 4,
+      "new_dose_mg": 135,
+      "method": "claim_graph_full",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 4.918
+    },
+    {
+      "scenario_id": "update_scenario_20",
+      "step_index": 4,
+      "new_dose_mg": 135,
+      "method": "local_temporal_proxy",
+      "current_fact_correct": 1.0,
+      "unchanged_visit_stable": 1.0,
+      "graph_delta": {
+        "claims_delta": 2,
+        "nodes_delta": 4,
+        "edges_delta": 13
+      },
+      "latency_ms": 2.335
+    }
+  ],
+  "summary": {
+    "methods": {
+      "claim_graph_full": {
+        "current_fact_accuracy_after_updates": 1.0,
+        "unchanged_visit_stability": 1.0,
+        "avg_latency_ms": 6.4603,
+        "avg_claims_delta": 2.0,
+        "avg_nodes_delta": 3.9825,
+        "avg_edges_delta": 12.9825
+      },
+      "local_temporal_proxy": {
+        "current_fact_accuracy_after_updates": 1.0,
+        "unchanged_visit_stability": 1.0,
+        "avg_latency_ms": 3.1915,
+        "avg_claims_delta": 2.0,
+        "avg_nodes_delta": 3.9825,
+        "avg_edges_delta": 12.9825
+      }
+    },
+    "by_depth": {
+      "claim_graph_full": {
+        "step_1": 1.0,
+        "step_2": 1.0,
+        "step_3": 1.0,
+        "step_4": 1.0
+      },
+      "local_temporal_proxy": {
+        "step_1": 1.0,
+        "step_2": 1.0,
+        "step_3": 1.0,
+        "step_4": 1.0
+      }
+    }
+  }
+}

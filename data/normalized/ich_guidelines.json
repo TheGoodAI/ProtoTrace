@@ -1,0 +1,24 @@
+{
+  "source_id": "ich_guidelines",
+  "family": "ICH",
+  "label": "ICH Guidelines Index",
+  "kind": "web_index",
+  "seed_url": "https://www.ich.org/resources/guidelines",
+  "resolved_url": "https://www.ich.org/resources/guidelines",
+  "retrieved_at": "2026-05-21T22:30:00-04:00",
+  "retrieved_via": "web_search_snippet",
+  "title": "ICH Official web site : ICH",
+  "text": "The ICH guidelines site provides access to guideline implementation resources and all guidelines, including quality, safety, multidisciplinary, index, and efficacy guidelines. It is the official ICH guideline portal.",
+  "sections": [
+    {
+      "heading": "Index",
+      "text": "The official ICH guideline portal links to all guidelines and related implementation resources."
+    }
+  ],
+  "citation_spans": [
+    {
+      "locator": "search snippet",
+      "quoted_text": "Work Products include Guideline Implementation, All Guidelines, Quality Guidelines, Safety Guidelines, Multidisciplinary Guidelines, Index of Guidelines, and Efficacy Guidelines."
+    }
+  ]
+}

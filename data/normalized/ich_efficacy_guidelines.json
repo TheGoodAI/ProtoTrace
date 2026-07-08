@@ -1,0 +1,28 @@
+{
+  "source_id": "ich_efficacy_guidelines",
+  "family": "ICH",
+  "label": "ICH Efficacy Guidelines",
+  "kind": "web_index",
+  "seed_url": "https://admin.ich.org/page/efficacy-guidelines",
+  "resolved_url": "https://admin.ich.org/page/efficacy-guidelines",
+  "retrieved_at": "2026-05-21T22:30:00-04:00",
+  "retrieved_via": "web_tool",
+  "title": "Efficacy Guidelines | ICH",
+  "text": "The work carried out by ICH under the Efficacy heading is concerned with the design, conduct, safety and reporting of clinical trials. It also covers novel types of medicines derived from biotechnological processes and the use of pharmacogenetics and genomics techniques to produce better targeted medicines. The page indexes key efficacy guidelines including E6 Good Clinical Practice, E8 General Considerations for Clinical Trials, E9 Statistical Principles for Clinical Trials, E10 Choice of Control Group, E11 Clinical Investigation in Pediatric Population, E17 Multi-Regional Clinical Trials, and others.",
+  "sections": [
+    {
+      "heading": "Scope",
+      "text": "The efficacy heading covers the design, conduct, safety and reporting of clinical trials."
+    },
+    {
+      "heading": "Relevant indexed guidance",
+      "text": "Relevant indexed guidance on the page includes E6 Good Clinical Practice, E8 General Considerations for Clinical Trials, and E9 Statistical Principles for Clinical Trials."
+    }
+  ],
+  "citation_spans": [
+    {
+      "locator": "lines 13-63",
+      "quoted_text": "The work carried out by ICH under the Efficacy heading is concerned with the design, conduct, safety and reporting of clinical trials."
+    }
+  ]
+}

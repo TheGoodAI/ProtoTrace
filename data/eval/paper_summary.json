@@ -1,0 +1,117 @@
+{
+  "table": {
+    "claim_graph_full": {
+      "current_fact_accuracy": 1.0,
+      "wrong_version_rate": 0.0,
+      "previous_fact_accuracy": 1.0,
+      "dose_history_accuracy": 1.0,
+      "visit_history_accuracy": 1.0,
+      "eligibility_history_accuracy": 1.0,
+      "rule_accuracy": 1.0,
+      "citation_source_f1": 0.9863,
+      "impact_section_f1": 1.0,
+      "governing_source_f1": 1.0,
+      "avg_latency_ms": 6.7551
+    },
+    "claim_temporal_only": {
+      "current_fact_accuracy": 1.0,
+      "wrong_version_rate": 0.0,
+      "previous_fact_accuracy": 1.0,
+      "dose_history_accuracy": 1.0,
+      "visit_history_accuracy": 1.0,
+      "eligibility_history_accuracy": 1.0,
+      "rule_accuracy": 1.0,
+      "citation_source_f1": 0.7779,
+      "impact_section_f1": 0.0,
+      "governing_source_f1": 0.0,
+      "avg_latency_ms": 3.6998
+    },
+    "claim_no_governance": {
+      "current_fact_accuracy": 1.0,
+      "wrong_version_rate": 0.0,
+      "previous_fact_accuracy": 1.0,
+      "dose_history_accuracy": 1.0,
+      "visit_history_accuracy": 1.0,
+      "eligibility_history_accuracy": 1.0,
+      "rule_accuracy": 1.0,
+      "citation_source_f1": 0.7779,
+      "impact_section_f1": 1.0,
+      "governing_source_f1": 0.0,
+      "avg_latency_ms": 3.4634
+    },
+    "claim_no_impact": {
+      "current_fact_accuracy": 1.0,
+      "wrong_version_rate": 0.0,
+      "previous_fact_accuracy": 1.0,
+      "dose_history_accuracy": 1.0,
+      "visit_history_accuracy": 1.0,
+      "eligibility_history_accuracy": 1.0,
+      "rule_accuracy": 1.0,
+      "citation_source_f1": 0.9863,
+      "impact_section_f1": 0.0,
+      "governing_source_f1": 1.0,
+      "avg_latency_ms": 3.5965
+    },
+    "local_temporal_proxy": {
+      "current_fact_accuracy": 1.0,
+      "wrong_version_rate": 0.0,
+      "previous_fact_accuracy": 0.9667,
+      "dose_history_accuracy": 0.0,
+      "visit_history_accuracy": 1.0,
+      "eligibility_history_accuracy": 1.0,
+      "rule_accuracy": 0.125,
+      "citation_source_f1": 0.627,
+      "impact_section_f1": 0.0,
+      "governing_source_f1": 1.0,
+      "avg_latency_ms": 1.4034
+    },
+    "local_rag_gpt4o": {
+      "current_fact_accuracy": 1.0,
+      "wrong_version_rate": 0.0,
+      "previous_fact_accuracy": 1.0,
+      "dose_history_accuracy": 0.8667,
+      "visit_history_accuracy": 0.0,
+      "eligibility_history_accuracy": 0.0,
+      "rule_accuracy": 0.0,
+      "citation_source_f1": 0.8742,
+      "impact_section_f1": 0.0,
+      "governing_source_f1": 0.619,
+      "avg_latency_ms": 1616.9937
+    },
+    "versionrag_style_gpt4o": {
+      "current_fact_accuracy": 1.0,
+      "wrong_version_rate": 0.0,
+      "previous_fact_accuracy": 0.9,
+      "dose_history_accuracy": 0.9667,
+      "visit_history_accuracy": 0.0,
+      "eligibility_history_accuracy": 0.0,
+      "rule_accuracy": 0.0,
+      "citation_source_f1": 0.8728,
+      "impact_section_f1": 0.0,
+      "governing_source_f1": 0.9226,
+      "avg_latency_ms": 1882.6806
+    }
+  },
+  "objective_task_types": [
+    "changed_source",
+    "changed_source_eligibility",
+    "changed_source_visit",
+    "current_eligibility",
+    "current_fact",
+    "current_visit",
+    "dose_history",
+    "eligibility_history",
+    "previous_eligibility",
+    "previous_fact",
+    "previous_visit",
+    "rule_answer",
+    "visit_history"
+  ],
+  "annotation_dependent_task_types": [
+    "governing_sources_all",
+    "governing_sources_dose_only",
+    "impact_sections_all",
+    "impact_sections_dose_only"
+  ],
+  "annotation_note": "impact_section_f1 and governing_source_f1 are computed against pipeline-derived gold and are reported here only as a capability check, not as an independent quantitative result. Treat them as requiring human-annotated gold before any comparative claim. Objective metrics (current/previous/dose-history/changed-source/rule) have mechanically- or externally-verifiable gold and are non-circular."
+}

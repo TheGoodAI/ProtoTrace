@@ -1,0 +1,2671 @@
+{
+  "summary": {
+    "n": 50,
+    "annotator": "single independent annotator (faculty advisor), no IAA",
+    "baseline": "llm_over_text",
+    "models_used": [
+      "gpt-4o-mini"
+    ],
+    "impact_sections_macro": {
+      "precision": 0.91,
+      "recall": 0.6116666666666668,
+      "f1": 0.714857142857143
+    },
+    "governing_sources_macro": {
+      "precision": 0.5492409812409812,
+      "recall": 1.0,
+      "f1": 0.7023982683982686
+    }
+  },
+  "per_scenario": [
+    {
+      "scenario_id": "pilot_001",
+      "archetype": "dose_change",
+      "impact_sections": {
+        "pred": [
+          "5.2",
+          "5.3"
+        ],
+        "gold": [
+          "5.2",
+          "5.3",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01"
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1747.966
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 3642.893
+      }
+    },
+    {
+      "scenario_id": "pilot_002",
+      "archetype": "eligibility_change",
+      "impact_sections": {
+        "pred": [
+          "4.2"
+        ],
+        "gold": [
+          "4.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1404.321
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2103.865
+      }
+    },
+    {
+      "scenario_id": "pilot_003",
+      "archetype": "visit_schedule_change",
+      "impact_sections": {
+        "pred": [
+          "8.1",
+          "11.3"
+        ],
+        "gold": [
+          "8.1",
+          "8.2",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1561.356
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2068.32
+      }
+    },
+    {
+      "scenario_id": "pilot_004",
+      "archetype": "safety_monitoring_change",
+      "impact_sections": {
+        "pred": [
+          "11.3",
+          "8.1"
+        ],
+        "gold": [
+          "8.1",
+          "8.2",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1499.802
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 3267.222
+      }
+    },
+    {
+      "scenario_id": "pilot_005",
+      "archetype": "endpoint_change",
+      "impact_sections": {
+        "pred": [
+          "7.1",
+          "8.1"
+        ],
+        "gold": [
+          "7.1",
+          "7.2",
+          "8.1",
+          "12.1"
+        ],
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 0.375,
+        "recall": 1.0,
+        "f1": 0.5454545454545454
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1475.851
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2973.055
+      }
+    },
+    {
+      "scenario_id": "pilot_006",
+      "archetype": "informed_consent_change",
+      "impact_sections": {
+        "pred": [
+          "9.1",
+          "11.3"
+        ],
+        "gold": [
+          "9.1",
+          "9.2"
+        ],
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1741.344
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2407.685
+      }
+    },
+    {
+      "scenario_id": "pilot_007",
+      "archetype": "discontinuation_criteria_change",
+      "impact_sections": {
+        "pred": [
+          "10.1",
+          "11.3"
+        ],
+        "gold": [
+          "10.1",
+          "10.2",
+          "11.1",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1827.018
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2532.817
+      }
+    },
+    {
+      "scenario_id": "pilot_008",
+      "archetype": "drug_interaction_change",
+      "impact_sections": {
+        "pred": [
+          "6.2",
+          "4.2"
+        ],
+        "gold": [
+          "4.2",
+          "5.3",
+          "6.1",
+          "6.2"
+        ],
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "governing_sources": {
+        "pred": [
+          "amendment",
+          "6.2",
+          "4.2",
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 0.4,
+        "recall": 1.0,
+        "f1": 0.5714285714285715
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1785.841
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 3065.14
+      }
+    },
+    {
+      "scenario_id": "pilot_009",
+      "archetype": "dose_change",
+      "impact_sections": {
+        "pred": [
+          "5.2",
+          "5.3"
+        ],
+        "gold": [
+          "5.2",
+          "5.3",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01"
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1352.761
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 4690.002
+      }
+    },
+    {
+      "scenario_id": "pilot_010",
+      "archetype": "eligibility_change",
+      "impact_sections": {
+        "pred": [
+          "4.2"
+        ],
+        "gold": [
+          "4.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1678.115
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2028.006
+      }
+    },
+    {
+      "scenario_id": "pilot_011",
+      "archetype": "visit_schedule_change",
+      "impact_sections": {
+        "pred": [
+          "8.1",
+          "11.3"
+        ],
+        "gold": [
+          "8.1",
+          "8.2",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1046.308
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2962.182
+      }
+    },
+    {
+      "scenario_id": "pilot_012",
+      "archetype": "safety_monitoring_change",
+      "impact_sections": {
+        "pred": [
+          "11.3",
+          "8.1"
+        ],
+        "gold": [
+          "8.1",
+          "8.2",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1": 0.9090909090909091
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1554.185
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 3021.077
+      }
+    },
+    {
+      "scenario_id": "pilot_013",
+      "archetype": "endpoint_change",
+      "impact_sections": {
+        "pred": [
+          "7.1",
+          "8.1"
+        ],
+        "gold": [
+          "7.1",
+          "7.2",
+          "8.1",
+          "12.1"
+        ],
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 0.375,
+        "recall": 1.0,
+        "f1": 0.5454545454545454
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1407.856
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2838.032
+      }
+    },
+    {
+      "scenario_id": "pilot_014",
+      "archetype": "informed_consent_change",
+      "impact_sections": {
+        "pred": [
+          "9.1",
+          "11.3"
+        ],
+        "gold": [
+          "9.1",
+          "9.2"
+        ],
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1712.236
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2331.381
+      }
+    },
+    {
+      "scenario_id": "pilot_015",
+      "archetype": "discontinuation_criteria_change",
+      "impact_sections": {
+        "pred": [
+          "10.1",
+          "4.2",
+          "11.3"
+        ],
+        "gold": [
+          "10.1",
+          "10.2",
+          "11.1",
+          "11.3"
+        ],
+        "precision": 0.6666666666666666,
+        "recall": 0.5,
+        "f1": 0.5714285714285715
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2279.513
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2689.738
+      }
+    },
+    {
+      "scenario_id": "pilot_016",
+      "archetype": "drug_interaction_change",
+      "impact_sections": {
+        "pred": [
+          "6.2",
+          "4.2"
+        ],
+        "gold": [
+          "4.2",
+          "5.3",
+          "6.1",
+          "6.2"
+        ],
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "governing_sources": {
+        "pred": [
+          "amendment",
+          "6.2",
+          "4.2",
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 0.4444444444444444,
+        "recall": 1.0,
+        "f1": 0.6153846153846153
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2015.935
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 3134.706
+      }
+    },
+    {
+      "scenario_id": "pilot_017",
+      "archetype": "dose_change",
+      "impact_sections": {
+        "pred": [
+          "5.2",
+          "5.3"
+        ],
+        "gold": [
+          "5.2",
+          "5.3",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01"
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1793.208
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2807.648
+      }
+    },
+    {
+      "scenario_id": "pilot_018",
+      "archetype": "eligibility_change",
+      "impact_sections": {
+        "pred": [
+          "4.2"
+        ],
+        "gold": [
+          "4.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1376.842
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2031.636
+      }
+    },
+    {
+      "scenario_id": "pilot_019",
+      "archetype": "visit_schedule_change",
+      "impact_sections": {
+        "pred": [
+          "8.1",
+          "11.3"
+        ],
+        "gold": [
+          "8.1",
+          "8.2",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2625.368
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2542.513
+      }
+    },
+    {
+      "scenario_id": "pilot_020",
+      "archetype": "safety_monitoring_change",
+      "impact_sections": {
+        "pred": [
+          "11.3",
+          "8.1"
+        ],
+        "gold": [
+          "8.1",
+          "8.2",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1403.918
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2599.039
+      }
+    },
+    {
+      "scenario_id": "pilot_021",
+      "archetype": "endpoint_change",
+      "impact_sections": {
+        "pred": [
+          "7.1",
+          "8.1"
+        ],
+        "gold": [
+          "7.1",
+          "7.2",
+          "8.1",
+          "12.1"
+        ],
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 0.375,
+        "recall": 1.0,
+        "f1": 0.5454545454545454
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1990.361
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2835.658
+      }
+    },
+    {
+      "scenario_id": "pilot_022",
+      "archetype": "informed_consent_change",
+      "impact_sections": {
+        "pred": [
+          "9.1",
+          "4.2",
+          "11.3"
+        ],
+        "gold": [
+          "9.1",
+          "9.2"
+        ],
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f1": 0.4
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 0.7142857142857143,
+        "recall": 1.0,
+        "f1": 0.8333333333333333
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1409.056
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2209.397
+      }
+    },
+    {
+      "scenario_id": "pilot_023",
+      "archetype": "discontinuation_criteria_change",
+      "impact_sections": {
+        "pred": [
+          "10.1"
+        ],
+        "gold": [
+          "10.1",
+          "10.2",
+          "11.1",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.25,
+        "f1": 0.4
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1512.191
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2533.848
+      }
+    },
+    {
+      "scenario_id": "pilot_024",
+      "archetype": "drug_interaction_change",
+      "impact_sections": {
+        "pred": [
+          "6.2",
+          "4.2"
+        ],
+        "gold": [
+          "4.2",
+          "5.3",
+          "6.1",
+          "6.2"
+        ],
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1762.102
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2761.56
+      }
+    },
+    {
+      "scenario_id": "pilot_025",
+      "archetype": "dose_change",
+      "impact_sections": {
+        "pred": [
+          "5.2",
+          "5.3"
+        ],
+        "gold": [
+          "5.2",
+          "5.3",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01"
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2175.062
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2945.656
+      }
+    },
+    {
+      "scenario_id": "pilot_026",
+      "archetype": "eligibility_change",
+      "impact_sections": {
+        "pred": [
+          "4.2"
+        ],
+        "gold": [
+          "4.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1517.314
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2227.985
+      }
+    },
+    {
+      "scenario_id": "pilot_027",
+      "archetype": "visit_schedule_change",
+      "impact_sections": {
+        "pred": [
+          "8.1",
+          "11.3"
+        ],
+        "gold": [
+          "8.1",
+          "8.2",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1403.033
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1603.629
+      }
+    },
+    {
+      "scenario_id": "pilot_028",
+      "archetype": "safety_monitoring_change",
+      "impact_sections": {
+        "pred": [
+          "11.3"
+        ],
+        "gold": [
+          "8.1",
+          "8.2",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "f1": 0.5
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1429.4
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2638.343
+      }
+    },
+    {
+      "scenario_id": "pilot_029",
+      "archetype": "endpoint_change",
+      "impact_sections": {
+        "pred": [
+          "7.1",
+          "8.1"
+        ],
+        "gold": [
+          "7.1",
+          "7.2",
+          "8.1",
+          "12.1"
+        ],
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 0.375,
+        "recall": 1.0,
+        "f1": 0.5454545454545454
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1294.04
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2673.103
+      }
+    },
+    {
+      "scenario_id": "pilot_030",
+      "archetype": "informed_consent_change",
+      "impact_sections": {
+        "pred": [
+          "amendment",
+          "11.3",
+          "4.2",
+          "5.2"
+        ],
+        "gold": [
+          "9.1",
+          "9.2"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 0.7142857142857143,
+        "recall": 1.0,
+        "f1": 0.8333333333333333
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1355.383
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2367.894
+      }
+    },
+    {
+      "scenario_id": "pilot_031",
+      "archetype": "discontinuation_criteria_change",
+      "impact_sections": {
+        "pred": [
+          "10.1",
+          "11.3"
+        ],
+        "gold": [
+          "10.1",
+          "10.2",
+          "11.1",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1586.432
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2713.858
+      }
+    },
+    {
+      "scenario_id": "pilot_032",
+      "archetype": "drug_interaction_change",
+      "impact_sections": {
+        "pred": [
+          "6.2",
+          "4.2"
+        ],
+        "gold": [
+          "4.2",
+          "5.3",
+          "6.1",
+          "6.2"
+        ],
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "governing_sources": {
+        "pred": [
+          "amendment",
+          "6.2",
+          "4.2",
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 0.4444444444444444,
+        "recall": 1.0,
+        "f1": 0.6153846153846153
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1845.349
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 3668.779
+      }
+    },
+    {
+      "scenario_id": "pilot_033",
+      "archetype": "dose_change",
+      "impact_sections": {
+        "pred": [
+          "5.2",
+          "5.3"
+        ],
+        "gold": [
+          "5.2",
+          "5.3",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01"
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1667.58
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2776.411
+      }
+    },
+    {
+      "scenario_id": "pilot_034",
+      "archetype": "eligibility_change",
+      "impact_sections": {
+        "pred": [
+          "4.2"
+        ],
+        "gold": [
+          "4.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1602.139
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2569.74
+      }
+    },
+    {
+      "scenario_id": "pilot_035",
+      "archetype": "visit_schedule_change",
+      "impact_sections": {
+        "pred": [
+          "8.1",
+          "11.3"
+        ],
+        "gold": [
+          "8.1",
+          "8.2",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1070.543
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2443.729
+      }
+    },
+    {
+      "scenario_id": "pilot_036",
+      "archetype": "safety_monitoring_change",
+      "impact_sections": {
+        "pred": [
+          "11.3",
+          "8.1"
+        ],
+        "gold": [
+          "8.1",
+          "8.2",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1414.897
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2350.817
+      }
+    },
+    {
+      "scenario_id": "pilot_037",
+      "archetype": "endpoint_change",
+      "impact_sections": {
+        "pred": [
+          "7.1",
+          "8.1"
+        ],
+        "gold": [
+          "7.1",
+          "7.2",
+          "8.1",
+          "12.1"
+        ],
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 0.375,
+        "recall": 1.0,
+        "f1": 0.5454545454545454
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1531.801
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1564.097
+      }
+    },
+    {
+      "scenario_id": "pilot_038",
+      "archetype": "informed_consent_change",
+      "impact_sections": {
+        "pred": [
+          "9.1",
+          "4.2",
+          "11.3"
+        ],
+        "gold": [
+          "9.1",
+          "9.2"
+        ],
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f1": 0.4
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 0.7142857142857143,
+        "recall": 1.0,
+        "f1": 0.8333333333333333
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1693.372
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2380.494
+      }
+    },
+    {
+      "scenario_id": "pilot_039",
+      "archetype": "discontinuation_criteria_change",
+      "impact_sections": {
+        "pred": [
+          "10.1",
+          "4.2",
+          "11.3"
+        ],
+        "gold": [
+          "10.1",
+          "10.2",
+          "11.1",
+          "11.3"
+        ],
+        "precision": 0.6666666666666666,
+        "recall": 0.5,
+        "f1": 0.5714285714285715
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1566.464
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2201.1
+      }
+    },
+    {
+      "scenario_id": "pilot_040",
+      "archetype": "drug_interaction_change",
+      "impact_sections": {
+        "pred": [
+          "6.2",
+          "4.2"
+        ],
+        "gold": [
+          "4.2",
+          "5.3",
+          "6.1",
+          "6.2"
+        ],
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "governing_sources": {
+        "pred": [
+          "amendment",
+          "6.2",
+          "4.2",
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 0.36363636363636365,
+        "recall": 1.0,
+        "f1": 0.5333333333333333
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1807.16
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 3170.018
+      }
+    },
+    {
+      "scenario_id": "pilot_041",
+      "archetype": "dose_change",
+      "impact_sections": {
+        "pred": [
+          "5.2",
+          "5.3"
+        ],
+        "gold": [
+          "5.2",
+          "5.3",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01"
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1540.733
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 3705.84
+      }
+    },
+    {
+      "scenario_id": "pilot_042",
+      "archetype": "eligibility_change",
+      "impact_sections": {
+        "pred": [
+          "4.2"
+        ],
+        "gold": [
+          "4.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1343.197
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2033.223
+      }
+    },
+    {
+      "scenario_id": "pilot_043",
+      "archetype": "visit_schedule_change",
+      "impact_sections": {
+        "pred": [
+          "8.1",
+          "11.3"
+        ],
+        "gold": [
+          "8.1",
+          "8.2",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1819.549
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2530.374
+      }
+    },
+    {
+      "scenario_id": "pilot_044",
+      "archetype": "safety_monitoring_change",
+      "impact_sections": {
+        "pred": [
+          "11.3",
+          "8.1"
+        ],
+        "gold": [
+          "8.1",
+          "8.2",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2719.197
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1984.23
+      }
+    },
+    {
+      "scenario_id": "pilot_045",
+      "archetype": "endpoint_change",
+      "impact_sections": {
+        "pred": [
+          "7.1",
+          "8.1"
+        ],
+        "gold": [
+          "7.1",
+          "7.2",
+          "8.1",
+          "12.1"
+        ],
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 0.375,
+        "recall": 1.0,
+        "f1": 0.5454545454545454
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1481.607
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2129.128
+      }
+    },
+    {
+      "scenario_id": "pilot_046",
+      "archetype": "informed_consent_change",
+      "impact_sections": {
+        "pred": [
+          "9.1",
+          "11.3"
+        ],
+        "gold": [
+          "9.1",
+          "9.2"
+        ],
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1627.237
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2383.881
+      }
+    },
+    {
+      "scenario_id": "pilot_047",
+      "archetype": "discontinuation_criteria_change",
+      "impact_sections": {
+        "pred": [
+          "10.1",
+          "11.3"
+        ],
+        "gold": [
+          "10.1",
+          "10.2",
+          "11.1",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1495.186
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 3068.349
+      }
+    },
+    {
+      "scenario_id": "pilot_048",
+      "archetype": "drug_interaction_change",
+      "impact_sections": {
+        "pred": [
+          "6.2",
+          "4.2"
+        ],
+        "gold": [
+          "4.2",
+          "5.3",
+          "6.1",
+          "6.2"
+        ],
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "governing_sources": {
+        "pred": [
+          "amendment",
+          "6.2",
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1571.498
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2559.41
+      }
+    },
+    {
+      "scenario_id": "pilot_049",
+      "archetype": "dose_change",
+      "impact_sections": {
+        "pred": [
+          "5.2",
+          "5.3"
+        ],
+        "gold": [
+          "5.2",
+          "5.3",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01"
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1739.263
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2937.808
+      }
+    },
+    {
+      "scenario_id": "pilot_050",
+      "archetype": "eligibility_change",
+      "impact_sections": {
+        "pred": [
+          "4.2"
+        ],
+        "gold": [
+          "4.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01",
+          "sop_safetymonitoring_02",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "impact_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 1481.394
+      },
+      "governance_provenance": {
+        "backend": "azure_openai",
+        "model": "gpt-4o-mini",
+        "api_version": "2025-01-01-preview",
+        "cache_hit": false,
+        "model_latency_ms": 2326.249
+      }
+    }
+  ]
+}

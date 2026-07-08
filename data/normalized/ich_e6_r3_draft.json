@@ -1,0 +1,32 @@
+{
+  "source_id": "ich_e6_r3_draft",
+  "family": "GCP",
+  "label": "ICH E6(R3) Draft Guideline",
+  "kind": "pdf",
+  "seed_url": "https://database.ich.org/sites/default/files/ICH_E6%28R3%29_DraftGuideline_2023_0519.pdf",
+  "resolved_url": "https://database.ich.org/sites/default/files/ICH_E6%28R3%29_DraftGuideline_2023_0519.pdf",
+  "retrieved_at": "2026-05-21T22:30:00-04:00",
+  "retrieved_via": "web_tool_pdf",
+  "title": "ICH E6(R3) Draft Guideline",
+  "text": "The ICH E6(R3) Good Clinical Practice draft guideline is an ICH harmonised guideline endorsed on 19 May 2023 and under public consultation at Step 2 of the ICH process. The document states that Good Clinical Practice is an international, ethical, scientific and quality standard for the conduct of trials that involve human participants. The table of contents includes principles of ICH GCP, Annex 1, and Appendix B for Clinical Trial Protocol and Protocol Amendment(s), with sections covering trial objectives, trial design, participant selection, efficacy and safety assessments, statistical considerations, quality control and assurance, ethics, and data handling.",
+  "sections": [
+    {
+      "heading": "Status",
+      "text": "Draft version endorsed on 19 May 2023 and under public consultation at Step 2."
+    },
+    {
+      "heading": "Definition of GCP",
+      "text": "Good Clinical Practice is an international, ethical, scientific and quality standard for the conduct of trials that involve human participants."
+    },
+    {
+      "heading": "Protocol appendix",
+      "text": "Appendix B covers Clinical Trial Protocol and Protocol Amendment(s), including trial design, participant selection, safety and efficacy assessment, statistical considerations, ethics, and data handling."
+    }
+  ],
+  "citation_spans": [
+    {
+      "locator": "page 0-6",
+      "quoted_text": "GOOD CLINICAL PRACTICE (GCP) E6(R3) Draft version Endorsed on 19 May 2023."
+    }
+  ]
+}

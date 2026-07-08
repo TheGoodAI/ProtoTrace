@@ -1,0 +1,1727 @@
+{
+  "summary": {
+    "n": 50,
+    "annotator": "single independent annotator (faculty advisor), no IAA, held-out pool",
+    "rule_engine": "pilot_rule_engine (8/8 archetypes, authored without consulting original 50-scenario gold)",
+    "impact_sections_macro": {
+      "precision": 0.96,
+      "recall": 0.9,
+      "f1": 0.9257142857142856
+    },
+    "governing_sources_macro": {
+      "precision": 1.0,
+      "recall": 0.782,
+      "f1": 0.8648571428571425
+    }
+  },
+  "per_scenario": [
+    {
+      "scenario_id": "heldout_001",
+      "archetype": "dose_change",
+      "impact_sections": {
+        "pred": [
+          "5.2",
+          "5.3",
+          "11.3"
+        ],
+        "gold": [
+          "5.2",
+          "5.3",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    {
+      "scenario_id": "heldout_002",
+      "archetype": "eligibility_change",
+      "impact_sections": {
+        "pred": [
+          "4.1",
+          "4.2"
+        ],
+        "gold": [
+          "4.1",
+          "4.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    {
+      "scenario_id": "heldout_003",
+      "archetype": "visit_schedule_change",
+      "impact_sections": {
+        "pred": [
+          "8.1",
+          "8.2",
+          "7.2"
+        ],
+        "gold": [
+          "7.2",
+          "8.1",
+          "8.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    {
+      "scenario_id": "heldout_004",
+      "archetype": "safety_monitoring_change",
+      "impact_sections": {
+        "pred": [
+          "11.3",
+          "8.1",
+          "11.4"
+        ],
+        "gold": [
+          "8.1",
+          "8.2",
+          "11.3",
+          "11.4"
+        ],
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_32",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1": 0.7499999999999999
+      }
+    },
+    {
+      "scenario_id": "heldout_005",
+      "archetype": "endpoint_change",
+      "impact_sections": {
+        "pred": [
+          "7.1",
+          "7.2",
+          "12.1"
+        ],
+        "gold": [
+          "7.1",
+          "7.2",
+          "8.2",
+          "12.1"
+        ],
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      }
+    },
+    {
+      "scenario_id": "heldout_006",
+      "archetype": "informed_consent_change",
+      "impact_sections": {
+        "pred": [
+          "9.1",
+          "9.2"
+        ],
+        "gold": [
+          "9.1",
+          "9.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "fda_21cfr312_30"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571
+      }
+    },
+    {
+      "scenario_id": "heldout_007",
+      "archetype": "discontinuation_criteria_change",
+      "impact_sections": {
+        "pred": [
+          "10.1",
+          "10.2"
+        ],
+        "gold": [
+          "10.1",
+          "10.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      }
+    },
+    {
+      "scenario_id": "heldout_008",
+      "archetype": "drug_interaction_change",
+      "impact_sections": {
+        "pred": [
+          "6.1",
+          "6.2",
+          "5.3"
+        ],
+        "gold": [
+          "4.2",
+          "6.1",
+          "6.2"
+        ],
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1": 0.6666666666666666
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      }
+    },
+    {
+      "scenario_id": "heldout_009",
+      "archetype": "dose_change",
+      "impact_sections": {
+        "pred": [
+          "5.2",
+          "5.3",
+          "11.3"
+        ],
+        "gold": [
+          "5.2",
+          "5.3",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    {
+      "scenario_id": "heldout_010",
+      "archetype": "eligibility_change",
+      "impact_sections": {
+        "pred": [
+          "4.1",
+          "4.2"
+        ],
+        "gold": [
+          "4.1",
+          "4.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    {
+      "scenario_id": "heldout_011",
+      "archetype": "visit_schedule_change",
+      "impact_sections": {
+        "pred": [
+          "8.1",
+          "8.2",
+          "7.2"
+        ],
+        "gold": [
+          "7.2",
+          "8.1",
+          "8.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    {
+      "scenario_id": "heldout_012",
+      "archetype": "safety_monitoring_change",
+      "impact_sections": {
+        "pred": [
+          "11.3",
+          "8.1",
+          "11.4"
+        ],
+        "gold": [
+          "8.1",
+          "8.2",
+          "11.3",
+          "11.4"
+        ],
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_32",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1": 0.7499999999999999
+      }
+    },
+    {
+      "scenario_id": "heldout_013",
+      "archetype": "endpoint_change",
+      "impact_sections": {
+        "pred": [
+          "7.1",
+          "7.2",
+          "12.1"
+        ],
+        "gold": [
+          "7.1",
+          "7.2",
+          "8.2",
+          "12.1"
+        ],
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      }
+    },
+    {
+      "scenario_id": "heldout_014",
+      "archetype": "informed_consent_change",
+      "impact_sections": {
+        "pred": [
+          "9.1",
+          "9.2"
+        ],
+        "gold": [
+          "9.1",
+          "9.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "fda_21cfr312_30"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571
+      }
+    },
+    {
+      "scenario_id": "heldout_015",
+      "archetype": "discontinuation_criteria_change",
+      "impact_sections": {
+        "pred": [
+          "10.1",
+          "10.2"
+        ],
+        "gold": [
+          "10.1",
+          "10.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      }
+    },
+    {
+      "scenario_id": "heldout_016",
+      "archetype": "drug_interaction_change",
+      "impact_sections": {
+        "pred": [
+          "6.1",
+          "6.2",
+          "5.3"
+        ],
+        "gold": [
+          "4.2",
+          "6.1",
+          "6.2"
+        ],
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1": 0.6666666666666666
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      }
+    },
+    {
+      "scenario_id": "heldout_017",
+      "archetype": "dose_change",
+      "impact_sections": {
+        "pred": [
+          "5.2",
+          "5.3",
+          "11.3"
+        ],
+        "gold": [
+          "5.2",
+          "5.3",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    {
+      "scenario_id": "heldout_018",
+      "archetype": "eligibility_change",
+      "impact_sections": {
+        "pred": [
+          "4.1",
+          "4.2"
+        ],
+        "gold": [
+          "4.1",
+          "4.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    {
+      "scenario_id": "heldout_019",
+      "archetype": "visit_schedule_change",
+      "impact_sections": {
+        "pred": [
+          "8.1",
+          "8.2",
+          "7.2"
+        ],
+        "gold": [
+          "7.2",
+          "8.1",
+          "8.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    {
+      "scenario_id": "heldout_020",
+      "archetype": "safety_monitoring_change",
+      "impact_sections": {
+        "pred": [
+          "11.3",
+          "8.1",
+          "11.4"
+        ],
+        "gold": [
+          "8.1",
+          "8.2",
+          "11.3",
+          "11.4"
+        ],
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_32",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1": 0.7499999999999999
+      }
+    },
+    {
+      "scenario_id": "heldout_021",
+      "archetype": "endpoint_change",
+      "impact_sections": {
+        "pred": [
+          "7.1",
+          "7.2",
+          "12.1"
+        ],
+        "gold": [
+          "7.1",
+          "7.2",
+          "8.2",
+          "12.1"
+        ],
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      }
+    },
+    {
+      "scenario_id": "heldout_022",
+      "archetype": "informed_consent_change",
+      "impact_sections": {
+        "pred": [
+          "9.1",
+          "9.2"
+        ],
+        "gold": [
+          "9.1",
+          "9.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "fda_21cfr312_30"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571
+      }
+    },
+    {
+      "scenario_id": "heldout_023",
+      "archetype": "discontinuation_criteria_change",
+      "impact_sections": {
+        "pred": [
+          "10.1",
+          "10.2"
+        ],
+        "gold": [
+          "10.1",
+          "10.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      }
+    },
+    {
+      "scenario_id": "heldout_024",
+      "archetype": "drug_interaction_change",
+      "impact_sections": {
+        "pred": [
+          "6.1",
+          "6.2",
+          "5.3"
+        ],
+        "gold": [
+          "4.2",
+          "6.1",
+          "6.2"
+        ],
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1": 0.6666666666666666
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      }
+    },
+    {
+      "scenario_id": "heldout_025",
+      "archetype": "dose_change",
+      "impact_sections": {
+        "pred": [
+          "5.2",
+          "5.3",
+          "11.3"
+        ],
+        "gold": [
+          "5.2",
+          "5.3",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    {
+      "scenario_id": "heldout_026",
+      "archetype": "eligibility_change",
+      "impact_sections": {
+        "pred": [
+          "4.1",
+          "4.2"
+        ],
+        "gold": [
+          "4.1",
+          "4.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    {
+      "scenario_id": "heldout_027",
+      "archetype": "visit_schedule_change",
+      "impact_sections": {
+        "pred": [
+          "8.1",
+          "8.2",
+          "7.2"
+        ],
+        "gold": [
+          "7.2",
+          "8.1",
+          "8.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    {
+      "scenario_id": "heldout_028",
+      "archetype": "safety_monitoring_change",
+      "impact_sections": {
+        "pred": [
+          "11.3",
+          "8.1",
+          "11.4"
+        ],
+        "gold": [
+          "8.1",
+          "8.2",
+          "11.3",
+          "11.4"
+        ],
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_32",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1": 0.7499999999999999
+      }
+    },
+    {
+      "scenario_id": "heldout_029",
+      "archetype": "endpoint_change",
+      "impact_sections": {
+        "pred": [
+          "7.1",
+          "7.2",
+          "12.1"
+        ],
+        "gold": [
+          "7.1",
+          "7.2",
+          "8.2",
+          "12.1"
+        ],
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      }
+    },
+    {
+      "scenario_id": "heldout_030",
+      "archetype": "informed_consent_change",
+      "impact_sections": {
+        "pred": [
+          "9.1",
+          "9.2"
+        ],
+        "gold": [
+          "9.1",
+          "9.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "fda_21cfr312_30"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571
+      }
+    },
+    {
+      "scenario_id": "heldout_031",
+      "archetype": "discontinuation_criteria_change",
+      "impact_sections": {
+        "pred": [
+          "10.1",
+          "10.2"
+        ],
+        "gold": [
+          "10.1",
+          "10.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      }
+    },
+    {
+      "scenario_id": "heldout_032",
+      "archetype": "drug_interaction_change",
+      "impact_sections": {
+        "pred": [
+          "6.1",
+          "6.2",
+          "5.3"
+        ],
+        "gold": [
+          "4.2",
+          "6.1",
+          "6.2"
+        ],
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1": 0.6666666666666666
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      }
+    },
+    {
+      "scenario_id": "heldout_033",
+      "archetype": "dose_change",
+      "impact_sections": {
+        "pred": [
+          "5.2",
+          "5.3",
+          "11.3"
+        ],
+        "gold": [
+          "5.2",
+          "5.3",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    {
+      "scenario_id": "heldout_034",
+      "archetype": "eligibility_change",
+      "impact_sections": {
+        "pred": [
+          "4.1",
+          "4.2"
+        ],
+        "gold": [
+          "4.1",
+          "4.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    {
+      "scenario_id": "heldout_035",
+      "archetype": "visit_schedule_change",
+      "impact_sections": {
+        "pred": [
+          "8.1",
+          "8.2",
+          "7.2"
+        ],
+        "gold": [
+          "7.2",
+          "8.1",
+          "8.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    {
+      "scenario_id": "heldout_036",
+      "archetype": "safety_monitoring_change",
+      "impact_sections": {
+        "pred": [
+          "11.3",
+          "8.1",
+          "11.4"
+        ],
+        "gold": [
+          "8.1",
+          "8.2",
+          "11.3",
+          "11.4"
+        ],
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_32",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1": 0.7499999999999999
+      }
+    },
+    {
+      "scenario_id": "heldout_037",
+      "archetype": "endpoint_change",
+      "impact_sections": {
+        "pred": [
+          "7.1",
+          "7.2",
+          "12.1"
+        ],
+        "gold": [
+          "7.1",
+          "7.2",
+          "8.2",
+          "12.1"
+        ],
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      }
+    },
+    {
+      "scenario_id": "heldout_038",
+      "archetype": "informed_consent_change",
+      "impact_sections": {
+        "pred": [
+          "9.1",
+          "9.2"
+        ],
+        "gold": [
+          "9.1",
+          "9.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "fda_21cfr312_30"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571
+      }
+    },
+    {
+      "scenario_id": "heldout_039",
+      "archetype": "discontinuation_criteria_change",
+      "impact_sections": {
+        "pred": [
+          "10.1",
+          "10.2"
+        ],
+        "gold": [
+          "10.1",
+          "10.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      }
+    },
+    {
+      "scenario_id": "heldout_040",
+      "archetype": "drug_interaction_change",
+      "impact_sections": {
+        "pred": [
+          "6.1",
+          "6.2",
+          "5.3"
+        ],
+        "gold": [
+          "4.2",
+          "6.1",
+          "6.2"
+        ],
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1": 0.6666666666666666
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      }
+    },
+    {
+      "scenario_id": "heldout_041",
+      "archetype": "dose_change",
+      "impact_sections": {
+        "pred": [
+          "5.2",
+          "5.3",
+          "11.3"
+        ],
+        "gold": [
+          "5.2",
+          "5.3",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    {
+      "scenario_id": "heldout_042",
+      "archetype": "eligibility_change",
+      "impact_sections": {
+        "pred": [
+          "4.1",
+          "4.2"
+        ],
+        "gold": [
+          "4.1",
+          "4.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    {
+      "scenario_id": "heldout_043",
+      "archetype": "visit_schedule_change",
+      "impact_sections": {
+        "pred": [
+          "8.1",
+          "8.2",
+          "7.2"
+        ],
+        "gold": [
+          "7.2",
+          "8.1",
+          "8.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    {
+      "scenario_id": "heldout_044",
+      "archetype": "safety_monitoring_change",
+      "impact_sections": {
+        "pred": [
+          "11.3",
+          "8.1",
+          "11.4"
+        ],
+        "gold": [
+          "8.1",
+          "8.2",
+          "11.3",
+          "11.4"
+        ],
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_32",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "fda_21cfr312_32",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_safetymonitoring_02"
+        ],
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1": 0.7499999999999999
+      }
+    },
+    {
+      "scenario_id": "heldout_045",
+      "archetype": "endpoint_change",
+      "impact_sections": {
+        "pred": [
+          "7.1",
+          "7.2",
+          "12.1"
+        ],
+        "gold": [
+          "7.1",
+          "7.2",
+          "8.2",
+          "12.1"
+        ],
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      }
+    },
+    {
+      "scenario_id": "heldout_046",
+      "archetype": "informed_consent_change",
+      "impact_sections": {
+        "pred": [
+          "9.1",
+          "9.2"
+        ],
+        "gold": [
+          "9.1",
+          "9.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5",
+          "fda_21cfr312_30"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ema_gcpqa_s5",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571
+      }
+    },
+    {
+      "scenario_id": "heldout_047",
+      "archetype": "discontinuation_criteria_change",
+      "impact_sections": {
+        "pred": [
+          "10.1",
+          "10.2"
+        ],
+        "gold": [
+          "10.1",
+          "10.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5"
+        ],
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      }
+    },
+    {
+      "scenario_id": "heldout_048",
+      "archetype": "drug_interaction_change",
+      "impact_sections": {
+        "pred": [
+          "6.1",
+          "6.2",
+          "5.3"
+        ],
+        "gold": [
+          "4.2",
+          "6.1",
+          "6.2"
+        ],
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1": 0.6666666666666666
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ich_e6r2_s4_5"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      }
+    },
+    {
+      "scenario_id": "heldout_049",
+      "archetype": "dose_change",
+      "impact_sections": {
+        "pred": [
+          "5.2",
+          "5.3",
+          "11.3"
+        ],
+        "gold": [
+          "5.2",
+          "5.3",
+          "11.3"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_dosechange_01"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    {
+      "scenario_id": "heldout_050",
+      "archetype": "eligibility_change",
+      "impact_sections": {
+        "pred": [
+          "4.1",
+          "4.2"
+        ],
+        "gold": [
+          "4.1",
+          "4.2"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "governing_sources": {
+        "pred": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "gold": [
+          "fda_21cfr312_30",
+          "ema_gcpqa_s3",
+          "ich_e6r2_s4_5",
+          "sop_eligibility_03"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  ]
+}

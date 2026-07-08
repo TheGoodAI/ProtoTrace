@@ -1,0 +1,32 @@
+{
+  "source_id": "fda_clinical_trials_guidance",
+  "family": "FDA",
+  "label": "Clinical Trials Guidance Documents",
+  "kind": "web_index",
+  "seed_url": "https://www.fda.gov/science-research/clinical-trials-and-human-subject-protection/clinical-trials-guidance-documents",
+  "resolved_url": "https://www.fda.gov/science-research/clinical-trials-and-human-subject-protection/clinical-trials-guidance-documents",
+  "retrieved_at": "2026-05-21T22:30:00-04:00",
+  "retrieved_via": "web_tool",
+  "title": "Clinical Trials Guidance Documents | FDA",
+  "text": "Guidance documents listed below represent the agency's current thinking on the conduct of clinical trials, good clinical practice and human subject protection. Guidance documents are not binding for FDA or the public and should be viewed as recommendations unless specific regulatory or statutory requirements are cited. The page lists current clinical-trial-related guidance, including Processes and Practices Applicable to Bioresearch Monitoring Inspections, Informed Consent, Decentralized Clinical Trials for Drugs, Biological Products, and Devices, Electronic Systems, Electronic Records, and Electronic Signatures in Clinical Investigations, ICH E8(R1): General Considerations for Clinical Studies, and Risk-Based Approach to Monitoring of Clinical Investigations.",
+  "sections": [
+    {
+      "heading": "Overview",
+      "text": "Guidance documents listed below represent the agency's current thinking on the conduct of clinical trials, good clinical practice and human subject protection."
+    },
+    {
+      "heading": "Regulatory status",
+      "text": "Guidance documents are not binding for FDA or the public and should be viewed as recommendations unless specific regulatory or statutory requirements are cited."
+    },
+    {
+      "heading": "Example guidance listed",
+      "text": "Examples on the page include Informed Consent, Decentralized Clinical Trials for Drugs, Biological Products, and Devices, Electronic Systems in Clinical Investigations, ICH E8(R1), and Risk-Based Approach to Monitoring of Clinical Investigations."
+    }
+  ],
+  "citation_spans": [
+    {
+      "locator": "lines 104-145",
+      "quoted_text": "Guidance documents listed below represent the agency's current thinking on the conduct of clinical trials, good clinical practice and human subject protection."
+    }
+  ]
+}

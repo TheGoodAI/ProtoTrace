@@ -1,0 +1,42 @@
+{
+  "dose_change": {
+    "impact_f1": 0.7999999999999999,
+    "gov_f1": 0.6666666666666666,
+    "n": 7
+  },
+  "eligibility_change": {
+    "impact_f1": 1.0,
+    "gov_f1": 0.6666666666666666,
+    "n": 7
+  },
+  "visit_schedule_change": {
+    "impact_f1": 0.7999999999999999,
+    "gov_f1": 0.7777777777777778,
+    "n": 6
+  },
+  "safety_monitoring_change": {
+    "impact_f1": 0.75,
+    "gov_f1": 0.7925407925407925,
+    "n": 6
+  },
+  "endpoint_change": {
+    "impact_f1": 0.6666666666666666,
+    "gov_f1": 0.5454545454545454,
+    "n": 6
+  },
+  "informed_consent_change": {
+    "impact_f1": 0.3833333333333333,
+    "gov_f1": 0.8012820512820512,
+    "n": 6
+  },
+  "discontinuation_criteria_change": {
+    "impact_f1": 0.5904761904761905,
+    "gov_f1": 0.7692307692307693,
+    "n": 6
+  },
+  "drug_interaction_change": {
+    "impact_f1": 0.6666666666666666,
+    "gov_f1": 0.6114774114774114,
+    "n": 6
+  }
+}
