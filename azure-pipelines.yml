@@ -58,31 +58,53 @@ stages:
           inputs:
             sshEndpoint: prototrace-vm SSH
             runOptions: inline
-
             inline: |
               set -euo pipefail
 
-              ACR_NAME="${ACR_LOGIN_SERVER%%.*}"
+              # Azure DevOps variables
+              ACR_LOGIN_SERVER="$(ACR_LOGIN_SERVER)"
               IMAGE="$(IMAGE)"
               CONTAINER="$(CONTAINER_NAME)"
               PORT="$(APP_PORT)"
 
-              echo "Logging into Azure..."
+              # Extract registry name from login server
+              ACR_NAME="${ACR_LOGIN_SERVER%%.*}"
+
+              echo "========================================"
+              echo "Logging into Azure using Managed Identity"
+              echo "========================================"
               az login --identity >/dev/null
 
-              echo "Logging into ACR..."
+              echo "========================================"
+              echo "Logging into Azure Container Registry"
+              echo "========================================"
               az acr login --name "$ACR_NAME"
 
-              echo "Pulling latest image..."
+              echo "========================================"
+              echo "Pulling latest image"
+              echo "========================================"
               docker pull "$IMAGE"
 
-              echo "Starting new container..."
+              echo "========================================"
+              echo "Stopping existing container"
+              echo "========================================"
+              docker stop "$CONTAINER" || true
+              docker rm "$CONTAINER" || true
+
+              echo "========================================"
+              echo "Starting new container"
+              echo "========================================"
               docker run -d \
                 --name "$CONTAINER" \
                 --restart always \
                 -p ${PORT}:${PORT} \
                 "$IMAGE"
 
-              echo "Deployment complete."
+              echo "========================================"
+              echo "Running Containers"
+              echo "========================================"
+              docker ps
 
-              docker ps --filter "name=$CONTAINER"
+              echo "========================================"
+              echo "Deployment Successful"
+              echo "========================================"
