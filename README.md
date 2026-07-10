@@ -4,6 +4,9 @@
 tracked explicitly, structure is tracked explicitly, and neither is inferred fresh from
 retrieved text on every question.**
 
+**Live demo:** [prototrace.protoai.cloud](https://prototrace.protoai.cloud/) — no install
+required.
+
 ## What is ProtoTrace?
 
 Clinical protocols change constantly — a dose gets revised, a visit interval shifts, an
@@ -67,6 +70,12 @@ never inside the live UI's answer path.
   `IMPACTS` edges from a changed subject to protocol sections; governance follows
   `GOVERNS` edges to the citing authority; drafting and validation both work only off
   active claims.
+
+## Try it without installing anything
+
+The live demo at [prototrace.protoai.cloud](https://prototrace.protoai.cloud/) runs the same
+UI described below. Use it if you just want to click through D1–D6 without setting up Python
+or Docker locally.
 
 ## Install
 
