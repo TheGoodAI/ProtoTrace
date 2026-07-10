@@ -221,6 +221,3 @@ python -m unittest discover -s tests -p "test_*.py" -v
 ## License
 
 MIT — see `LICENSE`.
-
-Never commit `creds.env`, `.env`, connection strings, or API keys. Use `.env.example`
-as the configuration template.
