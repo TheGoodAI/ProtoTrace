@@ -1,11 +1,10 @@
 # ProtoTrace
 
+🔗 **[Live Demo](https://prototrace.protoai.cloud/)** &nbsp;|&nbsp; ▶️ **[Screencast](https://youtu.be/oJS9Z0rkzVo)**
+
 **Amendment-sensitive clinical-protocol drafting, built around one separation: state is
 tracked explicitly, structure is tracked explicitly, and neither is inferred fresh from
 retrieved text on every question.**
-
-**Live demo:** [prototrace.protoai.cloud](https://prototrace.protoai.cloud/) — no install
-required. **Screencast:** [youtu.be/oJS9Z0rkzVo](https://youtu.be/oJS9Z0rkzVo).
 
 ## What is ProtoTrace?
 
