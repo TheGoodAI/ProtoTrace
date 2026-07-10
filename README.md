@@ -5,7 +5,7 @@ tracked explicitly, structure is tracked explicitly, and neither is inferred fre
 retrieved text on every question.**
 
 **Live demo:** [prototrace.protoai.cloud](https://prototrace.protoai.cloud/) — no install
-required.
+required. **Screencast:** [youtu.be/oJS9Z0rkzVo](https://youtu.be/oJS9Z0rkzVo).
 
 ## What is ProtoTrace?
 
