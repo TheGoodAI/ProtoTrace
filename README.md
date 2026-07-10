@@ -4,16 +4,48 @@
 tracked explicitly, structure is tracked explicitly, and neither is inferred fresh from
 retrieved text on every question.**
 
-When a clinical protocol is amended, downstream documents are often drafted from a
-collection that contains both the current fact and the version it replaced. A drafting
-tool built on plain retrieval can't reliably tell which one is active, what else the
-amendment affects, or which authority governs the change. ProtoTrace keeps that
-information in two explicit structures instead of re-deriving it from text every time:
+## What is ProtoTrace?
 
-- a **temporal claim ledger** that records every fact as `active` or `superseded`, with
-  a direct link to its predecessor and its source; and
-- a **controlled graph** that links claims to amendment events, protocol sections, and
-  governing sources.
+Clinical protocols change constantly — a dose gets revised, a visit interval shifts, an
+eligibility criterion is tightened — and every amendment leaves downstream documents
+(protocol text, review checklists, regulatory submissions) drafted from a source
+collection that now contains *both* the current fact and the version it replaced. A
+drafting tool built on plain text retrieval has no reliable way to tell which fact is
+active, what else the amendment touches, or which regulatory authority governs the
+change. In dose and safety-critical workflows, silently surfacing a superseded value
+isn't a cosmetic bug — it's the failure mode that matters most.
+
+ProtoTrace is a **demo system**, not a new retrieval algorithm. It shows what a
+protocol-drafting UI looks like when temporal state and graph structure are kept
+explicit instead of re-derived from text on every query:
+
+- a **temporal claim ledger** records every fact as `active` or `superseded`, with a
+  direct link to its predecessor claim and its source citation; and
+- a **controlled knowledge graph** links claims to amendment events, protocol sections,
+  and the regulatory sources that govern them.
+
+Six linked actions in the UI make this concrete: ask the current fact (sourced, never
+the superseded value), ask what changed (the full transition plus lineage), generate a
+source-linked draft, validate a stale draft (flags the outdated fact and the missing
+citation), view the impact map (which downstream sections need review, and which
+authority governs the update), and simulate a new amendment live — watching the graph
+update in place with new nodes, a supersession edge, and a rerouted current-value path.
+
+**Who this is for:** protocol authors, medical writers, and clinical-operations /
+regulatory-affairs staff who need downstream documents to stay consistent after an
+amendment, and researchers building temporal- or provenance-aware RAG systems who want
+a concrete UI to compare against, not just a benchmark number.
+
+**Where the AI actually is.** The live demo's request path is intentionally
+deterministic: the "retrieval" is graph traversal over the claim ledger
+(`GraphQueryEngine`), and drafting is templated generation grounded in the retrieved
+claims — not an LLM call. That is the paper's argument, not a shortfall: Table 1 below
+shows LLM-generated free-text answers failing history/rule questions specifically
+because they don't exact-match a compact gold string, which is exactly the failure mode
+an explicit claim ledger avoids. LLMs are used elsewhere in the pipeline — offline claim
+extraction from source documents (`llm_normalizer.py`, optional, off by default) and as
+comparison baselines in the evaluation (the `RAG (GPT-4o, no ledger)` row below) — but
+never inside the live UI's answer path.
 
 ## Architecture
 
@@ -55,6 +87,17 @@ python scripts/run_demo_ui.py
 
 Open `http://127.0.0.1:8000` (or whatever port the launcher prints). The baseline starts
 at a 75 mg dose, established by one prior amendment.
+
+### Run with Docker
+
+```bash
+docker build -t prototrace .
+docker run -p 8000:8000 prototrace
+```
+
+Open `http://localhost:8000`. No credentials or host setup required — the container serves
+the same local, deterministic demo (`KG_DEMO_HOST`/`KG_DEMO_PORT` default to `0.0.0.0:8000`
+inside the container).
 
 ![ProtoTrace UI: current fact, impact map, and governing sources](assets/ui_montage.png)
 

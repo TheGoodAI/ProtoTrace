@@ -1,0 +1,27 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+
+creds.env
+.env
+*.key
+*.pem
+*.pfx
+
+local_state/
+local_state_ui/
+output/
+artifacts/
+logs/
+tmp_*.log
+
+paper/
+docs/screenshots/
+*.pdf
+*.zip
+
+New Text Document.txt
+Generated image 1.png
+
+.git/

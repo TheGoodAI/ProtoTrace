@@ -21,4 +21,6 @@ if __name__ == "__main__":
     # KG_RESET_DEMO_ON_START=false to preserve in-progress state across restarts.
     ensure_local_demo_state(reset=os.environ.get("KG_RESET_DEMO_ON_START", "true").lower() == "true")
     app = create_app()
-    app.run(host="127.0.0.1", port=8000, debug=False)
+    host = os.environ.get("KG_DEMO_HOST", "127.0.0.1")
+    port = int(os.environ.get("KG_DEMO_PORT", "8000"))
+    app.run(host=host, port=port, debug=False)
